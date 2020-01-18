@@ -1,4 +1,4 @@
-# WimpingEgo & Days To Die Modlet Mess
+# WimpingEgo 7 Days To Die Modlet Mess
 
 I have no clue what I'm doing other than having a bit of fun.
 
