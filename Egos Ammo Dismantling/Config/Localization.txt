@@ -1,0 +1,5 @@
+Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+AmmoParts,,items,Item,New,Dismantle your ammo down into this base component.,,,,,
+AmmoParts,,items,Item,New,Ammo Parts,,,,,
+ArrowParts,,items,Item,New,Arrow Parts,,,,,
+BoltParts,,items,Item,New,Bolt Parts,,,,,
