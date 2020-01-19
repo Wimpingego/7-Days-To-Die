@@ -9,6 +9,7 @@ All of this is real only been made for myself to mess about with but you never k
 ```
 Egos Zombie Chop Shop - Its time to put them dead Z's to some good use again
 Egos Ammo Dismantling - Dismant your ammo in to other types with a little cost
+Egos Pick Me Up - That would look good in my home so lets pick one up.
 ```
 
 ### Installing
