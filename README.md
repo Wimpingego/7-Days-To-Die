@@ -22,7 +22,7 @@ YOu may need to make a folder called "Mods" if you dont already have one.
 ```
 ## Authors
 
-* **WimpingEgo** - [WimpingEgo](https://github.com/wimpingego)
+* **WimpingEgo** - [GitHub](https://github.com/wimpingego) / [Twitter](https://twitter.com/Ego_YT) / [Twitch](https://twitch.tv/wimpingego)
 
 ## License
 
