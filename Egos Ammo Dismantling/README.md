@@ -6,12 +6,13 @@ Dismant your ammo in to other types with a little cost
 
 With this "Modlet" you can dismant your ammo in to new part items that you can then use to craft other ammo types.
 
-```
-All gun ammo can get crafted into the new "Ammo Part" at a return of
-3 for 9mm ammo, 5 for 44 Mag ammo, 5 for 7.62mm ammo and 5 for shot gun shells.
+All gun ammo can get crafted into the new "Ammo Part" at a return of 3 for 9mm ammo, 5 for 44 Mag ammo, 5 for 7.62mm ammo and 5 for shot gun shells.
+
 Arrows can be crafted in to the new "Arrow Part" at a return of 3 for Stone, 5 for Iron and 7 for Steel, Flameing and Exploding
+
 Blots are the same as arrows but are crafted in to the new "bolt Part" item
 
+```
 The return numbers can be changed along with the recipes costs in side the recipes.xml
 ```
 
