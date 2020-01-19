@@ -1,6 +1,6 @@
-# WimpingEgo 7 Days To Die Modlet Mess
-
 ![image](https://i.imgur.com/Xnn0x02.png)
+
+# WimpingEgo 7 Days To Die Modlet Mess
 
 ### I have no clue what I'm doing other than having a bit of fun.
 
@@ -32,5 +32,5 @@ This project is licensed under the GNU General Public License License - see the 
 * The 7 Dasy To Die community
 
 ```
-**Feel free to edit & make better anything you find here**
+Feel free to edit & make better anything you find here
 ```
