@@ -36,7 +36,7 @@
 </item>
 
 <!--
-<!-- Blunderbuss -->
+Blunderbuss
 <item name="dismantleBlunderbuss">
     <property name="Extends" value="questMaster" />
     <property name="CustomIcon" value="dismantleBlunderbuss" />
@@ -55,9 +55,9 @@
     <property name="QuestGiven" value="BlunderbussBundleDismantle" />
     </property>
 </item>
-<!-- Blunderbuss -->
+Blunderbuss
 
-<!-- Explosives -->
+Explosives
 <item name="dismantleMolotovCocktail">
     <property name="Extends" value="questMaster" />
     <property name="CustomIcon" value="thrownAmmoMolotovCocktail" />
@@ -112,7 +112,7 @@
     <property name="QuestGiven" value="DynamiteDismantle" />
     </property>
 </item>
-<!-- Explosives -->
+Explosives
 -->
 
 </append>
