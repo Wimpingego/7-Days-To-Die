@@ -1,0 +1,10 @@
+Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+echainLink,,items,Item,New,Chain Link Fence,,,,,
+echainLinkFenceBottomPole,,items,Item,New,Chain Link Fence Bottom Pole,,,,,
+echainLinkFenceTops,,items,Item,New,Chain Link Fence Top,,,,,
+echainLinkFenceTopPole,,items,Item,New,Chain Link Top Pole Right,,,,,
+echainLinkFenceTopPole2,,items,Item,New,Chain Link Top Pole Left,,,,,
+echainLinkCornerBottom,,items,Item,New,Chain Link Corner Bottom,,,,,
+echainLinkCornerTop,,items,Item,Chain Link Corner Top,,,,,
+echainLinkPole,,items,Item,New,Chain Link Pole,,,,,
