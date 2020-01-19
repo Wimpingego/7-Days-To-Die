@@ -1,3 +1,5 @@
+![image](https://i.imgur.com/Xnn0x02.png)
+
 # Egos Zombie Chop Shop
 
 Its time to put them dead Z's to some good use again
