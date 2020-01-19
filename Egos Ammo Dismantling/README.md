@@ -1,3 +1,5 @@
+![image](https://i.imgur.com/Xnn0x02.png)
+
 # Egos Ammo Dismantling
 
 Dismant your ammo in to other types with a little cost
