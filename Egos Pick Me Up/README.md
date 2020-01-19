@@ -14,7 +14,8 @@ The new items you can pick up are:
 PoolTable, Park Bench A & B, Bench Press, Picnic Table, End Table, Bed02 (Double bed), Weight Bar
 Swing Set, Slide, Treadmill, Stationary Bike, Reptile Terrarium.
 
-You can also rest easy know that you can now pick back up the Barbed Wire Fence, Iron Spikes Wooden Spikes if like me you always place them wrong
+You can also rest easy know that you can now pick back up the Barbed Wire Fence, Iron Spikes
+Wooden Spikes if like me you always place them wrong
 
 This items you can be pick up can be changed in side the blocks.xml
 ```
