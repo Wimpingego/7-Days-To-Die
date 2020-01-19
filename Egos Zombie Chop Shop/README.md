@@ -1,6 +1,6 @@
 # Egos Zombie Chop Shop
 
-Its time to put them dead Z's to some good use again,
+Its time to put them dead Z's to some good use again
 
 ## Whats this Modlet does
 
