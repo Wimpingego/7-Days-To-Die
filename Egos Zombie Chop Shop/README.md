@@ -2,29 +2,29 @@
 
 # Egos Zombie Chop Shop
 
-Its time to put them dead Z's to some good use again
+Time to put them dead Z’s to some good use again.
 
-## Whats this Modlet does
+## What this Modlet does
 
-With this "Modlet" you can harvest Rotting Flesh & Bones from every zombie. Most but not all can drop one or two special items when they are detroysed.
+With this “Modlet” you can harvest Rotting Flesh and Bones from every zombie. Some zombie corpses can drop one or two special items when destroyed.
 
-```
-Every dead zombie has 200 hit points & stay after get for 100 ticks.
+Every dead zombie has ```200 hit points``` and will not despawn for ```100 ticks```.
 
-This can be changed along with the dropped items and drop probability in side the entityclasses.xml
-```
+This can be changed along with the dropped items and drop probability in the ```entityclasses.xml``` file.
 
-### Installing
+## Installing
 
-To us this all you need to do is drop it inside the Mods folder in the root folder of you 7 Days To Die game.
-YOu may need to make a folder called "Mods" if you dont already have one.
+Copy the **Egos Zombie Chop Shop** folder into the 7D2D Mods folder.
 
 ```
-\SteamLibrary\steamapps\common\7 Days To Die
+\SteamLibrary\steamapps\common\7 Days To Die\Mods
 ```
+
+You may need to create the “Mods” folder if you don’t already have one.
+
 ## Authors
 
-* **WimpingEgo** - [WimpingEgo](https://github.com/wimpingego)
+* **WimpingEgo** - [GitHub](https://github.com/wimpingego) / [Twitter](https://twitter.com/Ego_YT) / [Twitch](https://twitch.tv/wimpingego)
 
 ## License
 

@@ -2,35 +2,46 @@
 
 # Egos Pick Me Up
 
-That would look good in my home.
+‘That would look good in my home. I’m taking it with me!’
 
 ## Whats this Modlet does
 
-Alwasy wanted that one item for you home & do there is no way to craft it well with this "Modlet" you can pick up items/block in the game that you can't normally, as well as craft chain link fences (because I wanted them).
+Have you always wanted that one item for you home and there is no way to craft it? Well now you can.
 
-```
-The new items you can pick up are:
+With this "Modlet" you can pick up items/block in the game that you can't normally, as well as craft chain link fences (because I wanted them).
 
-PoolTable, Park Bench A & B, Bench Press, Picnic Table, End Table, Bed02 (Double bed), Weight Bar
-Swing Set, Slide, Treadmill, Stationary Bike, Reptile Terrarium.
+The items you can pick up:
 
-You can also rest easy now knowing that you can now pick back up the Barbed Wire Fence, Iron Spikes
-Wooden Spikes if like me you always place them wrong.
+* PoolTable
+* Park Bench A & B
+* Bench Press
+* Picnic Table
+* End Table
+* Bed02 (Double bed)
+* Weight Bar
+* Swing Set
+* Slide
+* Treadmill
+* Stationary Bike
+* Reptile Terrarium
 
-This items you can be pick up can be changed in side the blocks.xml
-```
+If you're like me, always placing spikes incorrectly. You can also rest easy knowing that you can now pick up the Barbed Wire Fence, Iron Spikes and Wooden Spikes.
+
+This items you can pick up can be changed in the ```blocks.xml``` file.
 
 ### Installing
 
-To us this all you need to do is drop it inside the Mods folder in the root folder of you 7 Days To Die game.
-YOu may need to make a folder called "Mods" if you dont already have one.
+Copy the **Egos Pick Me Up** folder into the 7D2D Mods folder.
 
 ```
-\SteamLibrary\steamapps\common\7 Days To Die
+\SteamLibrary\steamapps\common\7 Days To Die\Mods
 ```
+
+You may need to create the “Mods” folder if you don’t already have one.
+
 ## Authors
 
-* **WimpingEgo** - [WimpingEgo](https://github.com/wimpingego)
+* **WimpingEgo** - [GitHub](https://github.com/wimpingego) / [Twitter](https://twitter.com/Ego_YT) / [Twitch](https://twitch.tv/wimpingego)
 
 ## License
 

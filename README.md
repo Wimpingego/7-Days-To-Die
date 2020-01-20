@@ -2,24 +2,30 @@
 
 # WimpingEgo 7 Days To Die Modlet Mess
 
-### I have no clue what I'm doing other than having a bit of fun.
+I have no clue what I’m doing other than having a bit of fun. You never know if others might want to take a look, so here it is.
 
-All of this is real only been made for myself to mess about with but you never know other want to take a look at it so here is what I have so far
+Feel free to edit and improve anything you find here.
+
+## Mods
+
+**Egos Zombie Chop Shop** - Time to put them dead Z’s to some good use again
+
+**Egos Ammo Dismantling** - Dismantle your ammo into Ammo Parts
+
+**Egos Pick Me Up** - ‘That would look good in my home. I’m taking it with me!’
+
+## Installing
+
+Download and unzip the project from [GitHub](https://github.com/Wimpingego/7-Days-To-Die/archive/master.zip).
+
+Copy each modlet folder you want to use into the 7D2D Mods folder.
 
 ```
-Egos Zombie Chop Shop - Its time to put them dead Z's to some good use again
-Egos Ammo Dismantling - Dismant your ammo in to other types with a little cost
-Egos Pick Me Up - That would look good in my home so lets pick one up.
+\SteamLibrary\steamapps\common\7 Days To Die\Mods
 ```
 
-### Installing
+You may need to create the “Mods” folder if you don’t already have one.
 
-To us this all you need to do is drop it inside the Mods folder in the root folder of you 7 Days To Die game.
-YOu may need to make a folder called "Mods" if you dont already have one.
-
-```
-\SteamLibrary\steamapps\common\7 Days To Die
-```
 ## Authors
 
 * **WimpingEgo** - [GitHub](https://github.com/wimpingego) / [Twitter](https://twitter.com/Ego_YT) / [Twitch](https://twitch.tv/wimpingego)
@@ -31,7 +37,3 @@ This project is licensed under the GNU General Public License License - see the 
 ## Acknowledgments
 
 * The 7 Dasy To Die community
-
-```
-Feel free to edit & make better anything you find here
-```

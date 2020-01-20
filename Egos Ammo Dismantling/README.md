@@ -2,33 +2,43 @@
 
 # Egos Ammo Dismantling
 
-Dismant your ammo in to other types with a little cost
+Dismantle your ammo in to Ammo Parts.
 
-## Whats this Modlet does
+## What this Modlet does
 
-With this "Modlet" you can dismant your ammo in to new part items that you can then use to craft other ammo types.
+With this “Modlet” you can dismantle your ammo in to part items that can be use to craft other ammo types.
 
-All gun ammo can get crafted into the new "Ammo Part" at a return of 3 for 9mm ammo, 5 for 44 Mag ammo, 5 for 7.62mm ammo and 5 for shot gun shells.
+Gun ammo can be dismantled into Ammo Parts, arrows in to Arrow Parts, and Bolts into Bolt Parts.
 
-Arrows can be crafted in to the new "Arrow Part" at a return of 3 for Stone, 5 for Iron and 7 for Steel, Flameing and Exploding
+| Ammo                 | Type            | Qty |
+|----------------------|-----------------|-----|
+| 9 mm                 | Ammo Part       | 3   |
+| 44 Mag               | Ammo Part       | 4   |
+| 7.62 mm              | Ammo Part       | 5   |
+| Shotgun Shell        | Ammo Part       | 5   |
+| Stone Arrow/Bolt     | Arrow/Bolt Part | 3   |
+| Iron Arrow/Bolt      | Arrow/Bolt Part | 5   |
+| Steel Arrow/Bolt     | Arrow/Bolt Part | 7   |
+| Flaming Arrow/Bolt   | Arrow/Bolt Part | 7   |
+| Exploding Arrow/Bolt | Arrow/Bolt Part | 7   |
 
-Blots are the same as arrows but are crafted in to the new "bolt Part" item
+The same quantity of Ammo/Arrow/Bolt Parts are required to craft each ammo type, but crafting higher tier ammo items may require additional components such as Scrap Polymers or Animal Fats.
+
+The quantity of parts returned can be changed along with the new item recipes in the ```recipes.xml``` file.
+
+## Installing
+
+Copy the **Egos Ammo Dismantling** folder into the 7D2D Mods folder.
 
 ```
-The return numbers can be changed along with the recipes costs in side the recipes.xml
+\SteamLibrary\steamapps\common\7 Days To Die\Mods
 ```
 
-### Installing
+You may need to create the “Mods” folder if you don’t already have one.
 
-To us this all you need to do is drop it inside the Mods folder in the root folder of you 7 Days To Die game.
-YOu may need to make a folder called "Mods" if you dont already have one.
-
-```
-\SteamLibrary\steamapps\common\7 Days To Die
-```
 ## Authors
 
-* **WimpingEgo** - [WimpingEgo](https://github.com/wimpingego)
+* **WimpingEgo** - [GitHub](https://github.com/wimpingego) / [Twitter](https://twitter.com/Ego_YT) / [Twitch](https://twitch.tv/wimpingego)
 
 ## License
 
