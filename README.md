@@ -1,6 +1,6 @@
 ![image](https://i.imgur.com/Xnn0x02.png)
 
-# WimpingEgo 7 Days To Die Modlet Mess
+# 7 Days To Die Modlet Mess
 
 I have no clue what I’m doing other than having a bit of fun. You never know if others might want to take a look, so here it is.
 
