@@ -8,7 +8,7 @@
 
 Have you always wanted that one item for you home and there is no way to craft it? Well now you can.
 
-With this "Modlet" you can pick up items/block in the game that you can't normally, as well as craft chain link fences (because I wanted them).
+With this "Modlet" you can pick up items/block in the game that you can't normally.
 
 The items you can pick up:
 
