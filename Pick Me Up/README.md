@@ -27,7 +27,7 @@ The items you can pick up:
 
 If you're like me, always placing spikes incorrectly. You can also rest easy knowing that you can now pick up the Barbed Wire Fence, Iron Spikes and Wooden Spikes.
 
-This items you can pick up can be changed in the ```blocks.xml``` file.
+The items you can pick up can be changed in the ```blocks.xml``` file.
 
 ### Installing
 
@@ -49,5 +49,5 @@ This project is licensed under the GNU General Public License License - see the 
 
 ## Acknowledgments
 
-* The 7 Dasy To Die community
+* The 7 Days To Die community
 * Ottopia - For helping me with Read Me and GitHub over all
