@@ -10,17 +10,22 @@ With this “Modlet” you can dismantle your ammo in to part items that can be 
 
 Gun ammo can be dismantled into Ammo Parts, arrows in to Arrow Parts, and Bolts into Bolt Parts.
 
-| Ammo                 | Type            | Qty |
-|----------------------|-----------------|-----|
-| 9 mm                 | Ammo Part       | 3   |
-| 44 Mag               | Ammo Part       | 4   |
-| 7.62 mm              | Ammo Part       | 5   |
-| Shotgun Shell        | Ammo Part       | 5   |
-| Stone Arrow/Bolt     | Arrow/Bolt Part | 3   |
-| Iron Arrow/Bolt      | Arrow/Bolt Part | 5   |
-| Steel Arrow/Bolt     | Arrow/Bolt Part | 7   |
-| Flaming Arrow/Bolt   | Arrow/Bolt Part | 7   |
-| Exploding Arrow/Bolt | Arrow/Bolt Part | 7   |
+| Ammo                 | Type             | Qty |
+|----------------------|------------------|-----|
+| 9 mm                 | Ammo Part        | 3   |
+| 44 Mag               | Ammo Part        | 4   |
+| 7.62 mm              | Ammo Part        | 5   |
+| Shotgun Shell        | Ammo Part        | 5   |
+| Stone Arrow/Bolt     | Arrow/Bolt Part  | 3   |
+| Iron Arrow/Bolt      | Arrow/Bolt Part  | 5   |
+| Steel Arrow/Bolt     | Arrow/Bolt Part  | 7   |
+| Flaming Arrow/Bolt   | Arrow/Bolt Part  | 7   |
+| Exploding Arrow/Bolt | Arrow/Bolt Part  | 7   |
+| Molotov Cocktail     | Explosives Parts | 3   |
+| PipeBomb             | Explosives Parts | 3   |
+| Grenade/Contact      | Explosives Parts | 5   |
+| Timed Charge         | Explosives Parts | 7   |
+| Dynamite             | Explosives Parts | 7   |
 
 The same quantity of Ammo/Arrow/Bolt Parts are required to craft each ammo type, but crafting higher tier ammo items may require additional components such as Scrap Polymers or Animal Fats.
 
