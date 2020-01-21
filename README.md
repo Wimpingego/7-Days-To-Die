@@ -37,3 +37,4 @@ This project is licensed under the GNU General Public License License - see the 
 ## Acknowledgments
 
 * The 7 Dasy To Die community
+* Ottopia - For helping me with Read Me and GitHub over all
