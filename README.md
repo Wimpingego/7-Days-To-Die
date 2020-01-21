@@ -8,11 +8,11 @@ Feel free to edit and improve anything you find here.
 
 ## Mods
 
-**Egos Zombie Chop Shop** - Time to put them dead Z’s to some good use again
+**Zombie Chop Shop** - Time to put them dead Z’s to some good use again
 
-**Egos Ammo Dismantling** - Dismantle your ammo into Ammo Parts
+**Ammo Dismantling** - Dismantle your ammo into Ammo Parts
 
-**Egos Pick Me Up** - ‘That would look good in my home. I’m taking it with me!’
+**Pick Me Up** - ‘That would look good in my home. I’m taking it with me!’
 
 ## Installing
 
