@@ -1,0 +1,119 @@
+<stallionsden>
+<append xpath="/items">
+<!-- Ammo Dismantling -->
+
+<item name="AmmoParts">
+	<property name="Extends" value="partsMaster"/>
+	<property name="ItemTypeIcon" value="gunsmithing"/>
+    <property name="CustomIcon" value="DismantleBulletCasing" />   
+	<property name="DescriptionKey" value="gunPartsGroupDesc"/>
+	<property name="Material" value="Mbrass"/>
+	<property name="EconomicValue" value="9"/>
+	<property name="Weight" value="1"/>
+	<property name="Stacknumber" value="300"/>
+</item>
+
+<item name="ArrowParts">
+	<property name="Extends" value="partsMaster"/>
+	<property name="ItemTypeIcon" value="gunsmithing"/>
+    <property name="CustomIcon" value="DismantleArrow" />   
+	<property name="DescriptionKey" value="gunPartsGroupDesc"/>
+	<property name="Material" value="Mwood"/>
+	<property name="EconomicValue" value="9"/>
+	<property name="Weight" value="1"/>
+	<property name="Stacknumber" value="300"/>
+</item>
+
+<item name="BoltParts">
+	<property name="Extends" value="partsMaster"/>
+	<property name="ItemTypeIcon" value="gunsmithing"/>
+    <property name="CustomIcon" value="DismantleBolt" />   
+	<property name="DescriptionKey" value="gunPartsGroupDesc"/>
+	<property name="Material" value="Mwood"/>
+	<property name="EconomicValue" value="9"/>
+	<property name="Weight" value="1"/>
+	<property name="Stacknumber" value="300"/>
+</item>
+
+<!--
+Blunderbuss
+<item name="dismantleBlunderbuss">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantleBlunderbuss" />
+	<property name="CustomIconTint" value="00ff00"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="BlunderbussDismantle" />
+    </property>
+</item>
+<item name="dismantleBlunderbussBundle">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="dismantleBlunderbuss" />
+	<property name="CustomIconTint" value="00ff00"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="BlunderbussBundleDismantle" />
+    </property>
+</item>
+Blunderbuss
+
+Explosives
+<item name="dismantleMolotovCocktail">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="thrownAmmoMolotovCocktail" />
+	<property name="CustomIconTint" value="00a0a0"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="MolotovCocktailDismantle" />
+    </property>
+</item>
+<item name="dismantlePipeBomb">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="thrownAmmoPipeBomb" />
+	<property name="CustomIconTint" value="00a0a0"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="PipeBombDismantle" />
+    </property>
+</item>
+<item name="dismantleGrenade">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="thrownGrenade" />
+	<property name="CustomIconTint" value="00a0a0"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="GrenadeDismantle" />
+    </property>
+</item>
+<item name="dismantleGrenadeContact">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="thrownGrenadeContact" />
+	<property name="CustomIconTint" value="00a0a0"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="GrenadeContactDismantle" />
+    </property>
+</item>
+<item name="dismantleTimedCharge">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="thrownTimedCharge" />
+	<property name="CustomIconTint" value="00a0a0"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="TimedChargeDismantle" />
+    </property>
+</item>
+<item name="dismantleDynamite">
+    <property name="Extends" value="questMaster" />
+    <property name="CustomIcon" value="thrownDynamite" />
+	<property name="CustomIconTint" value="00a0a0"/>
+    <property name="DescriptionKey" value="dismantleammo"/>
+    <property class="Action0">
+    <property name="QuestGiven" value="DynamiteDismantle" />
+    </property>
+</item>
+Explosives
+-->
+
+</append>
+</stallionsden>

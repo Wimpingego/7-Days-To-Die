@@ -1,0 +1,176 @@
+<configs>
+	<append xpath="/entity_classes/entity_class[starts-with(@name, 'zombie')]">
+		<property name="TimeStayAfterDeath" value="100"/>
+		<property name="DeadBodyHitPoints" value="200"/>
+		<drop event="Harvest" name="foodRottingFlesh" count="1,3" prob="1" tag="butcherHarvest"/>
+		<drop event="Harvest" name="resourceBone" count="2,6" tag="butcherHarvest"/>
+		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,4" prob="0.5" tag="butcherHarvest"/>
+	<!--	
+		<drop event="Harvest" name="resourceAnimalFat" count="1,2" prob="0.33" tag="butcherHarvest"/>	
+		<drop event="Destroy" name="resourceScrapPolymers" count="1,2"/>
+	-->
+	</append>
+
+
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieFemaleFat')]">
+	<drop event="Destroy" name="foodShamSandwich" tag="butcherHarvest" count="1" prob="0.15"/> 
+	<drop event="Destroy" name="drinkJarGrainAlcohol" tag="butcherHarvest" count="1,2" prob="0.25"/> 
+	<drop event="Destroy" name="foodBlueberryPie" tag="butcherHarvest" count="2" prob="0.01"/>	
+  </append>	
+
+   <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieFatHawaiian')]">
+	<drop event="Destroy" name="drinkCanMegaCrush" tag="butcherHarvest" count="1" prob="0.05"/> 
+	<drop event="Destroy" name="foodGrilledMeat" tag="butcherHarvest" count="1,2" prob="0.25"/> 
+	<drop event="Destroy" name="foodFishTacos" tag="butcherHarvest" count="2" prob="0.01"/> 	
+  </append>
+
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieSoldier')]">
+	<drop event="Destroy" name="ammo762mmBulletFMJ" tag="butcherHarvest" count="1,4" prob="0.35"/> 
+	<drop event="Destroy" name="ammo9mmBulletBall" tag="butcherHarvest" count="1,6" prob="0.25"/> 
+	<drop event="Destroy" name="ammo44MagnumBullet" tag="butcherHarvest" count="1" prob="0.15"/> 
+	<drop event="Destroy" name="ammoShotgunShell" tag="butcherHarvest" count="1,3" prob="0.15"/> 
+  </append>
+
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieStripper')]">
+	<drop event="Destroy" name="resourcePotassiumNitratePowder"  tag="butcherHarvest" count="4,8" prob="0.5"/>
+	<drop event="Destroy" name="oldCash" tag="butcherHarvest" count="1,5" prob="0.35"/> 
+	<drop event="Destroy" name="casinoCoin" tag="butcherHarvest" count="1,2" prob="0.15"/> 	
+  </append>
+  
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieNurse')]">
+    <drop event="Destroy" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="5"/>
+	<drop event="Destroy" name="medicalFirstAidBandage" tag="butcherHarvest" count="1" prob="0.05"/> 
+	<drop event="Destroy" name="medicalBandage" tag="butcherHarvest" count="1,2" prob="0.25"/> 
+	<drop event="Destroy" name="drugAntibiotics" tag="butcherHarvest" count="2" prob="0.01"/> 
+  </append>
+
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieFatCop')]">
+	<drop event="Destroy" name="ammo762mmBulletFMJ" tag="butcherHarvest" count="1,4" prob="0.15"/> 
+	<drop event="Destroy" name="ammo9mmBulletBall" tag="butcherHarvest" count="1,6" prob="0.35"/> 
+	<drop event="Destroy" name="ammo44MagnumBullet" tag="butcherHarvest" count="1" prob="0.15"/> 
+	<drop event="Destroy" name="ammoShotgunShell" tag="butcherHarvest" count="1,3" prob="0.25"/> 
+  </append>
+
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieBiker')]">
+    <drop event="Destroy" name="resourceOil" tag="butcherHarvest" count="1,4" prob="0.35"/> 
+	<drop event="Destroy" name="ammo9mmBulletBall" tag="butcherHarvest" count="1,2" prob="0.25"/> 
+	<drop event="Harvest" name="ammo44MagnumBullet" tag="butcherHarvest" count="1" prob="0.25"/> 
+  </append>
+
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieUtilityWorker')]">
+    <drop event="Destroy" name="resourceOil" tag="butcherHarvest" count="1" prob="0.15"/> 
+	<drop event="Destroy" name="resourceNail" tag="butcherHarvest" count="1,5" prob="0.35"/>
+	<drop event="Destroy" name="resourceDuctTape" tag="butcherHarvest" count="1,5" prob="0.35"/> 	
+  </append>
+
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieOldTimer')]">
+	<drop event="Destroy" name="ammo9mmBulletBall" tag="butcherHarvest" count="1,6" prob="0.15"/> 
+	<drop event="Destroy" name="ammo44MagnumBullet" tag="butcherHarvest" count="1" prob="0.35"/> 
+	<drop event="Destroy" name="ammoShotgunShell" tag="butcherHarvest" count="1,3" prob="0.25"/> 
+	<drop event="Destroy" name="ammoArrowIron" tag="butcherHarvest" count="1,3" prob="0.25"/> 	
+  </append>  
+
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieLab')]">
+    <drop event="Destroy" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="5"/>
+	<drop event="Destroy" name="toolBeaker" tag="butcherHarvest" count="1" prob="0.35"/>
+	<drop event="Destroy" name="drugVitamins" tag="butcherHarvest" count="1" prob="0.25"/>	
+ </append>
+  
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieMaleHazmat')]">	
+    <drop event="Destroy" name="resourcePotassiumNitratePowder" tag="butcherHarvest" count="5"/>
+	<drop event="Destroy" name="apparelHazmatMask" tag="butcherHarvest" count="1" prob="0.15"/> 	
+	<drop event="Destroy" name="apparelHazmatJacket" tag="butcherHarvest" count="1" prob="0.05"/> 	
+	<drop event="Destroy" name="apparelHazmatGloves" tag="butcherHarvest" count="1" prob="0.05"/> 	
+	<drop event="Destroy" name="apparelHazmatPants" tag="butcherHarvest" count="1" prob="0.05"/> 	
+	<drop event="Destroy" name="apparelHazmatBoots" tag="butcherHarvest" count="1" prob="0.05"/> 						
+  </append>
+  
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieSnow')]">		
+    <drop event="Destroy" name="resourceSnowBall" tag="butcherHarvest" count="2"/>
+	<drop event="Destroy" name="resourceWood" tag="butcherHarvest" count="5,15" prob="0.35"/> 		
+  </append>
+
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieMoe')]">
+	<drop event="Destroy" name="drugPainkillers" tag="butcherHarvest" count="1,3" prob="0.15"/> 
+	<drop event="Destroy" name="oldcash" tag="butcherHarvest" count="1,5" prob="0.35"/> 
+	<drop event="Destroy" name="casinoCoin" tag="butcherHarvest" count="1" prob="0.15"/> 	
+  </append>
+
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieFarmer')]">
+	<drop event="Destroy" name="ammoShotgunShell" tag="butcherHarvest" count="1,3" prob="0.25"/> 
+	<drop event="Destroy" name="ammo762mmBulletFMJ" tag="butcherHarvest" count="1,4" prob="0.15"/> 		
+  </append>  
+
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieCheerleader')]">
+	<drop event="Destroy" name="oldcash" tag="butcherHarvest" count="1,5" prob="0.25"/> 
+	<drop event="Destroy" name="medicalAloeCream" tag="butcherHarvest" count="1,2" prob="0.15"/> 		
+  </append>   
+
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieSkateboarder')]">
+	<drop event="Destroy" name="oldcash" tag="butcherHarvest" count="1,5" prob="0.25"/> 
+	<drop event="Destroy" name="resourceGlue" tag="butcherHarvest" count="1,2" prob="0.35"/>
+	<drop event="Destroy" name="resourceLockPick" tag="butcherHarvest" count="1" prob="0.15"/> 	
+  </append>   
+
+   <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieBurnt')]">
+	<drop event="Destroy" name="resourceGunPowder" tag="butcherHarvest" count="1,2" prob="0.15"/> 
+	<drop event="Destroy" name="resourceWood" tag="butcherHarvest" count="1,5" prob="0.35"/> 
+	<drop event="Destroy" name="resourceCoal" tag="butcherHarvest" count="1,5" prob="0.15"/> 	
+  </append>  
+
+   <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieSpider')]">
+	<drop event="Destroy" name="drugPainkillers" tag="butcherHarvest" count="1,2" prob="0.15"/> 	
+  </append>   
+
+   <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieBusinessMan')]">
+	<drop event="Destroy" name="resourcePaper" tag="butcherHarvest" count="1,6" prob="0.35"/>
+	<drop event="Destroy" name="ammo9mmBulletBall" tag="butcherHarvest" count="1" prob="0.15"/> 	
+  </append>   
+
+   <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieYo')]">
+	<drop event="Destroy" name="oldcash" tag="butcherHarvest" count="1,5" prob="0.25"/> 
+	<drop event="Destroy" name="drinkJarPureMineralWater" tag="butcherHarvest" count="1" prob="0.15"/> 
+  </append>  
+
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieMarlene')]">
+	<drop event="Destroy" name="resourceCloth" tag="butcherHarvest" count="1" prob="0.15"/> 
+  </append>     
+
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieDarlene')]">
+	<drop event="Destroy" name="oldcash" tag="butcherHarvest" count="1,5" prob="0.25"/> 	
+	<drop event="Destroy" name="drugVitamins" tag="butcherHarvest" count="1" prob="0.15"/>		
+  </append> 
+
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieDemolition')]">
+	<drop event="Destroy" name="thrownAmmoPipeBomb" tag="butcherHarvest" count="1" prob="0.15"/> 	
+  </append>  
+
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieFootballPlayer')]">
+	<drop event="Destroy" name="drugSteroids" tag="butcherHarvest" count="1,2" prob="0.35"/> 
+	<drop event="Destroy" name="armorFootballHelmet" tag="butcherHarvest" count="1" prob="0.15"/> 	
+  </append> 
+
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieBoe')]">
+    <drop event="Destroy" name="resourceBone" tag="butcherHarvest" count="4"/>
+    <drop event="Destroy" name="foodRottingFlesh" tag="butcherHarvest" count="3"/>	
+  </append>  
+
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieScreamer')]">
+  </append>   
+
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieArlene')]">
+  </append>  
+
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieJoe')]">
+  </append>   
+
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieWight')]">
+  </append> 
+
+  <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieSteve')]">
+  </append>    
+
+   <append xpath="/entity_classes/entity_class[starts-with(@name, 'zombieSteveCrawler')]">
+  </append> 
+
+</configs>

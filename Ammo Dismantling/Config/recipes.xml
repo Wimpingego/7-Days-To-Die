@@ -1,0 +1,173 @@
+<stallionsden>
+<append xpath="/recipes">
+<!-- 9mm -->
+<recipe name="AmmoParts" count="3" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammo9mmBulletBall" count="1"/>
+</recipe>
+<recipe name="AmmoParts" count="3" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammo9mmBulletHP" count="1"/>
+</recipe>
+<recipe name="AmmoParts" count="3" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammo9mmBulletAP" count="1"/>
+</recipe>
+
+<recipe name="ammo9mmBulletBall" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="AmmoParts" count="3"/>
+</recipe>
+<recipe name="ammo9mmBulletHP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="AmmoParts" count="3"/>
+</recipe>
+<recipe name="ammo9mmBulletAP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="AmmoParts" count="3"/>
+</recipe>
+<!-- 9mm -->
+
+<!-- 44 Mag -->
+<recipe name="AmmoParts" count="4" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammo44MagnumBulletBall" count="1"/>
+</recipe>
+<recipe name="AmmoParts" count="4" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammo44MagnumBulletHP" count="1"/>
+</recipe>
+<recipe name="AmmoParts" count="4" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammo44MagnumBulletAP" count="1"/>
+</recipe>
+
+<recipe name="ammo44MagnumBulletBall" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="AmmoParts" count="4"/>
+</recipe>
+<recipe name="ammo44MagnumBulletHP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="AmmoParts" count="4"/>
+</recipe>
+<recipe name="ammo44MagnumBulletAP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="AmmoParts" count="4"/>
+</recipe>
+<!-- 44 Mag -->
+
+<!-- 7.62mm -->
+<recipe name="AmmoParts" count="5" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammo762mmBulletBall" count="1"/>
+</recipe>
+<recipe name="AmmoParts" count="5" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammo762mmBulletHP" count="1"/>
+</recipe>
+<recipe name="AmmoParts" count="5" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammo762mmBulletAP" count="1"/>
+</recipe>
+
+<recipe name="ammo762mmBulletBall" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="AmmoParts" count="5"/>
+</recipe>
+<recipe name="ammo762mmBulletHP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="AmmoParts" count="5"/>
+</recipe>
+<recipe name="ammo762mmBulletAP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="AmmoParts" count="5"/>
+</recipe>
+<!-- 7.62mm -->
+
+<!-- Shotgun -->
+<recipe name="AmmoParts" count="5" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoShotgunShell" count="1"/>
+</recipe>
+<recipe name="AmmoParts" count="5" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoBundleShotgunSlug" count="1"/>
+</recipe>
+<recipe name="AmmoParts" count="5" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoShotgunBreachingSlug" count="1"/>
+</recipe>
+
+<recipe name="ammoShotgunShell" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="AmmoParts" count="5"/>
+</recipe>
+<recipe name="ammoBundleShotgunSlug" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="AmmoParts" count="5"/>
+    <ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+<recipe name="ammoShotgunBreachingSlug" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="AmmoParts" count="5"/>
+    <ingredient name="resourceClayLump" count="2"/>    
+    <ingredient name="resourceScrapPolymers" count="1"/>
+</recipe>
+<!-- Shotgun -->
+
+<!-- Bows -->
+<recipe name="ArrowParts" count="3" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoArrowStone" count="1"/>
+</recipe>
+<recipe name="ArrowParts" count="5" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoArrowIron" count="1"/>
+</recipe>
+<recipe name="ArrowParts" count="7" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoArrowSteelAP" count="1"/>
+</recipe>
+<recipe name="ArrowParts" count="7" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoArrowFlaming" count="1"/>
+</recipe>
+<recipe name="ArrowParts" count="7" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoArrowExploding" count="1"/>
+</recipe>
+
+<recipe name="ammoArrowStone" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="ArrowParts" count="3"/>
+</recipe>
+<recipe name="ammoArrowIron" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="ArrowParts" count="5"/>
+    <ingredient name="resourceWood" count="1"/>
+</recipe>
+<recipe name="ammoArrowSteelAP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ArrowParts" count="7"/>
+    <ingredient name="resourceScrapPolymers" count="2"/>    
+</recipe>
+<recipe name="ammoArrowFlaming" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ArrowParts" count="7"/>
+    <ingredient name="resourceAnimalFat" count="2"/>    
+</recipe>
+<recipe name="ammoArrowExploding" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="ArrowParts" count="7"/>
+    <ingredient name="resourceScrapPolymers" count="2"/>    
+</recipe>
+<!-- Bows -->
+
+<!-- CrossBow -->
+<recipe name="BoltParts" count="3" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoCrossbowBoltStone" count="1"/>
+</recipe>
+<recipe name="BoltParts" count="5" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoCrossbowBoltIron" count="1"/>
+</recipe>
+<recipe name="BoltParts" count="7" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoCrossbowBoltSteelAP" count="1"/>
+</recipe>
+<recipe name="BoltParts" count="7" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoCrossbowBoltFlaming" count="1"/>
+</recipe>
+<recipe name="BoltParts" count="7" craft_time = "5" craft_exp_gain="0">
+    <ingredient name="ammoCrossbowBoltExploding" count="1"/>
+</recipe>
+
+<recipe name="ammoCrossbowBoltStone" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="BoltParts" count="3"/>
+</recipe>
+<recipe name="ammoCrossbowBoltIron" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="BoltParts" count="5"/>
+    <ingredient name="resourceScrapIron" count="1"/>
+</recipe>
+<recipe name="ammoCrossbowBoltSteelAP" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="BoltParts" count="7"/>
+    <ingredient name="resourceScrapPolymers" count="2"/>    
+</recipe>
+<recipe name="ammoCrossbowBoltFlaming" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="BoltParts" count="7"/>
+    <ingredient name="resourceAnimalFat" count="2"/>    
+</recipe>
+<recipe name="ammoCrossbowBoltExploding" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+	<ingredient name="BoltParts" count="7"/>
+    <ingredient name="resourceScrapPolymers" count="2"/>    
+</recipe>
+<!-- CrossBow -->
+
+<!-- Explosives -->
+<!-- Explosives -->
+</append>
+</stallionsden>
