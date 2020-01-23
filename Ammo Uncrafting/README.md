@@ -1,20 +1,18 @@
 ![image](https://i.imgur.com/Xnn0x02.png)
 
-# Egos Zombie Chop Shop
+# Ego's Ammo Uncrafting
 
-Time to put them dead Z’s to some good use again.
+Uncraft your ammo but at a cost.
 
 ## What this Modlet does
 
-With this “Modlet” you can harvest Rotting Flesh and Bones from every zombie. Some zombie corpses can drop one or two special items when destroyed.
-
-Every dead zombie has ```200 hit points``` and will not despawn for ```100 ticks```.
-
-This can be changed along with the dropped items and drop probability in the ```entityclasses.xml``` file.
+With this “Modlet” you can uncraft your ammo in to the items that they are crafted from but you can only pick one of them.
+This is all done from with in side a workbench
+The quantity of returned items can be changed in the ```recipes.xml``` file along with how long they take to uncraft.
 
 ## Installing
 
-Copy the **Zombie Chop Shop** folder into the 7D2D Mods folder.
+Copy the **Ammo Uncrafting** folder into the 7D2D Mods folder.
 
 ```
 \SteamLibrary\steamapps\common\7 Days To Die\Mods

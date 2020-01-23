@@ -31,7 +31,7 @@ This items you can pick up can be changed in the ```blocks.xml``` file.
 
 ### Installing
 
-Copy the **Egos Pick Me Up** folder into the 7D2D Mods folder.
+Copy the **Pick Me Up** folder into the 7D2D Mods folder.
 
 ```
 \SteamLibrary\steamapps\common\7 Days To Die\Mods

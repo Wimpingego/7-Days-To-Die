@@ -33,7 +33,7 @@ The quantity of parts returned can be changed along with the new item recipes in
 
 ## Installing
 
-Copy the **Egos Ammo Dismantling** folder into the 7D2D Mods folder.
+Copy the **Ammo Dismantling** folder into the 7D2D Mods folder.
 
 ```
 \SteamLibrary\steamapps\common\7 Days To Die\Mods
