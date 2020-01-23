@@ -12,6 +12,8 @@ Feel free to edit and improve anything you find here.
 
 **Ammo Dismantling** - Dismantle your ammo into Ammo Parts
 
+**Ammo Uncrafting** - Uncraft your ammo but at a cost.
+
 **Pick Me Up** - ‘That would look good in my home. I’m taking it with me!’
 
 ## Installing
