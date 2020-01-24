@@ -89,7 +89,7 @@
 </recipe>
 <recipe name="resourceBulletCasing" count="1" craft_area="workbench" tags="workbenchCrafting">
     <ingredient name="ammo44MagnumBulletHP" count="1"/>
-</recipe>
+</recipe>   
 <recipe name="resourceBulletTip" count="160" craft_time="360" craft_area="workbench" tags="workbenchCrafting">
     <ingredient name="ammoBundle44MagnumBulletHP" count="1"/>
 </recipe>
@@ -268,7 +268,7 @@
 <!-- Shotgun -->
 
 <!-- JunkTurret -->
-<recipe name="resourceScrapIronammoJunkTurret" count="3"  craft_area="workbench" tags="workbenchCrafting">
+<recipe name="resourceScrapIron" count="3"  craft_area="workbench" tags="workbenchCrafting">
 	<ingredient name="ammoJunkTurret" count="1"/>
 </recipe>
 <!-- JunkTurret -->
@@ -493,74 +493,135 @@
 </recipe>
 <!-- Arrows -->
 
-
-<!-- 
-<recipe name="ammoDartIron" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
-	<ingredient name="unit_iron" count="3"/>
-	<ingredient name="unit_clay" count="1"/>
-	<effect_group>
-		<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_iron"/>
-	</effect_group>
+<!-- Iron Dart -->
+<recipe name="resourceScrapIron" count="3" craft_time="5" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="ammoDartIron" count="1"/>
 </recipe>
+<!-- Iron Dart -->
 
-<recipe name="ammoRocketFrag" count="1" craft_time="40" craft_area="workbench" tags="learnable,workbenchCrafting">
-	<ingredient name="resourceBuckshot" count="25"/>
-	<ingredient name="resourceGunPowder" count="15"/>
-	<ingredient name="resourceDuctTape" count="2"/>
-	<ingredient name="ammoGasCan" count="500"/>
-	<ingredient name="resourceRocketCasing" count="1"/>
+<!-- Rockets -->
+    <!-- Normal --> 
+<recipe name="resourceBuckshot" count="25" craft_time="40" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="ammoRocketFrag" count="1"/>
 </recipe>
-
-<recipe name="ammoRocketHE" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
-	<ingredient name="resourceRocketTip" count="1"/>
-	<ingredient name="resourceGunPowder" count="15"/>
-	<ingredient name="resourceDuctTape" count="2"/>
-	<ingredient name="ammoGasCan" count="500"/>
-	<ingredient name="resourceRocketCasing" count="1"/>
+<recipe name="resourceGunPowder" count="15" craft_time="40" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="ammoRocketFrag" count="1"/>
 </recipe>
-
-
-<recipe name="thrownAmmoMolotovCocktail" count="1" craft_time="12">
-	<ingredient name="resourceCloth" count="1"/>
-	<ingredient name="ammoGasCan" count="300"/>
-	<ingredient name="resourceOil" count="1"/>
-	<ingredient name="drinkJarEmpty" count="1"/>
+<recipe name="resourceDuctTape" count="2" craft_time="40" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="ammoRocketFrag" count="1"/>
 </recipe>
-
-<recipe name="thrownAmmoPipeBomb" count="1" craft_time="12" craft_area="workbench" tags="learnable,workbenchCrafting">
-	<ingredient name="resourceYuccaFibers" count="1"/>
-	<ingredient name="resourceGunPowder" count="12"/>
-	<ingredient name="resourceMetalPipe" count="1"/>
+<recipe name="ammoGasCan" count="500" craft_time="40" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="ammoRocketFrag" count="1"/>
 </recipe>
-
-<recipe name="thrownGrenade" count="1" craft_time="16" craft_area="workbench" tags="learnable,workbenchCrafting">
-	<ingredient name="resourceMechanicalParts" count="1"/>
-	<ingredient name="resourceGunPowder" count="14"/>
-	<ingredient name="resourceForgedIron" count="4"/>
-	<ingredient name="resourceSpring" count="1"/>
+<recipe name="resourceRocketCasing" count="1" craft_time="40" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="ammoRocketFrag" count="1"/>
 </recipe>
-
-<recipe name="thrownGrenadeContact" count="1" craft_time="20" craft_area="workbench" tags="learnable,workbenchCrafting">
-	<ingredient name="resourceMechanicalParts" count="2"/>
-	<ingredient name="resourceGunPowder" count="14"/>
-	<ingredient name="resourceForgedIron" count="4"/>
-	<ingredient name="resourceSpring" count="1"/>
+    <!-- Rocket HE --> 
+<recipe name="resourceRocketTip" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="ammoRocketHE" count="1"/>
 </recipe>
-
-<recipe name="thrownTimedCharge" count="1" craft_time="30" craft_area="workbench" tags="learnable,workbenchCrafting">
-	<ingredient name="resourceScrapIron" count="50"/>
-	<ingredient name="resourceGunPowder" count="25"/>
-	<ingredient name="resourceElectricParts" count="10"/>
-	<ingredient name="resourceScrapPolymers" count="10"/>
-	<ingredient name="resourceAcid" count="1"/>
+<recipe name="resourceGunPowder" count="15" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="ammoRocketHE" count="1"/>
 </recipe>
-
-<recipe name="thrownDynamite" count="1" craft_time="15" craft_area="workbench" tags="learnable,workbenchCrafting">
-	<ingredient name="resourceYuccaFibers" count="1"/>
-	<ingredient name="resourceGunPowder" count="20"/>
-	<ingredient name="resourceDuctTape" count="2"/>
-	<ingredient name="resourcePaper" count="10"/>
+<recipe name="resourceDuctTape" count="2" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="ammoRocketHE" count="1"/>
 </recipe>
- -->
+<recipe name="ammoGasCan" count="500" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="ammoRocketHE" count="1"/>
+</recipe>
+<recipe name="resourceRocketCasing" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="ammoRocketHE" count="1"/>
+</recipe>
+<!-- Rockets -->
+
+<!-- Molotov Cocktail -->
+<recipe name="resourceCloth" count="1" craft_time="12" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="thrownAmmoMolotovCocktail" count="1"/>
+</recipe>
+<recipe name="ammoGasCan" count="300" craft_time="12" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="thrownAmmoMolotovCocktail" count="1"/>
+</recipe>
+<recipe name="resourceOil" count="1" craft_time="12" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="thrownAmmoMolotovCocktail" count="1"/>
+</recipe>
+<recipe name="drinkJarEmpty" count="1" craft_time="12" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="thrownAmmoMolotovCocktail" count="1"/>
+</recipe>
+<!-- Molotov Cocktail -->
+
+<!-- Pipe Bomb -->
+<recipe name="resourceYuccaFibers" count="1" craft_time="12" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="thrownAmmoPipeBomb" count="1"/>
+</recipe>
+<recipe name="resourceGunPowder" count="12" craft_time="12" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="thrownAmmoPipeBomb" count="1"/>
+</recipe>
+<recipe name="resourceMetalPipe" count="1" craft_time="12" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="thrownAmmoPipeBomb" count="1"/>
+</recipe>
+<!-- Pipe Bomb-->
+
+<!-- Grenades -->
+    <!-- Grenade -->
+<recipe name="resourceMechanicalParts" count="1" craft_time="16" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="thrownGrenade" count="1"/>
+</recipe>
+<recipe name="resourceGunPowder" count="14" craft_time="16" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="thrownGrenade" count="1"/>
+</recipe>
+<recipe name="resourceForgedIron" count="4" craft_time="16" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="thrownGrenade" count="1"/>
+</recipe>
+<recipe name="resourceSpring" count="1" craft_time="16" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="thrownGrenade" count="1"/>
+</recipe>
+    <!-- Contact Grenade -->
+<recipe name="resourceMechanicalParts" count="2" craft_time="20" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="thrownGrenadeContact" count="1"/>
+</recipe>
+<recipe name="resourceGunPowder" count="14" craft_time="20" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="thrownGrenadeContact" count="1"/>
+</recipe>
+<recipe name="resourceForgedIron" count="4" craft_time="20" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="thrownGrenadeContact" count="1"/>
+</recipe>
+<recipe name="resourceSpring" count="1" craft_time="20" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="thrownGrenadeContact" count="1"/>
+</recipe>
+<!-- Grenades -->
+
+<!-- Timed Charges -->
+<recipe name="resourceScrapIron" count="50" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="thrownTimedCharge" count="1"/>
+</recipe>
+<recipe name="resourceGunPowder" count="25" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="thrownTimedCharge" count="1"/>
+</recipe>
+<recipe name="resourceElectricParts" count="10" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="thrownTimedCharge" count="1"/>
+</recipe>
+<recipe name="resourceScrapPolymers" count="10" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="thrownTimedCharge" count="1"/>
+</recipe>
+<recipe name="resourceAcid" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="thrownTimedCharge" count="1"/>
+</recipe>
+<!-- Timed Charges -->
+
+<!-- Dynamite -->
+<recipe name="thrownDynamite" count="1" craft_time="15" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="thrownDynamite" count="1"/>
+</recipe>
+<recipe name="resourceGunPowder" count="20" craft_time="15" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="thrownDynamite" count="1"/>
+</recipe>
+<recipe name="resourceDuctTape" count="2" craft_time="15" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="thrownDynamite" count="1"/>
+</recipe>
+<recipe name="resourcePaper" count="10" craft_time="15" craft_area="workbench" tags="workbenchCrafting">
+    <ingredient name="thrownDynamite" count="1"/>
+</recipe>
+<!-- Dynamite -->
+
 </append>
 </stallionsden>
