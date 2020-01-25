@@ -1,7 +1,7 @@
 <configs>
 	<append xpath="/entity_classes/entity_class[starts-with(@name, 'zombie')]">
 		<property name="TimeStayAfterDeath" value="100"/>
-		<property name="DeadBodyHitPoints" value="200"/>
+		<property name="DeadBodyHitPoints" value="50"/>
 		<drop event="Harvest" name="foodRottingFlesh" count="1,3" prob="1" tag="butcherHarvest"/>
 		<drop event="Harvest" name="resourceBone" count="2,6" tag="butcherHarvest"/>
 		<drop event="Harvest" name="resourcePotassiumNitratePowder" count="1,4" prob="0.5" tag="butcherHarvest"/>

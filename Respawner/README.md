@@ -1,20 +1,20 @@
 ![image](https://i.imgur.com/Xnn0x02.png)
 
-# Egos Zombie Chop Shop
+# Ego's Respawner
 
-Time to put them dead Z’s to some good use again.
+Based on JaxTeller718 Car Respawner Modlet with added blocks.
 
 ## What this Modlet does
 
-With this “Modlet” you can harvest Rotting Flesh and Bones from every zombie. Some zombie corpses can drop one or two special items when destroyed.
+With this “Modlet” Cars and other block with respawn after a set lenght of time. When the block is destroyed the game with place gray grass in its place after a set time the destroyed item with respawn.
 
-Every dead zombie has ```50 hit points``` and will not despawn for ```100 ticks```.
+Every dead zombie has ```200 hit points``` and will not despawn for ```100 ticks```.
 
-This can be changed along with the dropped items and drop probability in the ```entityclasses.xml``` file.
+Lenght of time can be changed in the ```blocks.xml``` file.
 
 ## Installing
 
-Copy the **Zombie Chop Shop** folder into the 7D2D Mods folder.
+Copy the **Respawner** folder into the 7D2D Mods folder.
 
 ```
 \SteamLibrary\steamapps\common\7 Days To Die\Mods
@@ -34,3 +34,4 @@ This project is licensed under the GNU General Public License License - see the 
 
 * The 7 Days To Die community
 * Ottopia - For helping me with Read Me and GitHub over all
+* JaxTeller718 - For making the Car Respawner Modlet [GitHub](https://github.com/JaxTeller718/JaxModletsA182B5)
