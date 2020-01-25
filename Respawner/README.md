@@ -12,6 +12,8 @@ Every dead zombie has ```200 hit points``` and will not despawn for ```100 ticks
 
 Lenght of time can be changed in the ```blocks.xml``` file.
 
+Also slightly higher chance for eggs and feathers from nests, The probability can be changed in the ```loot.xml``` file.
+
 ## Installing
 
 Copy the **Respawner** folder into the 7D2D Mods folder.
