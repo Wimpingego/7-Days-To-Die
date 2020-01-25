@@ -34,4 +34,4 @@ This project is licensed under the GNU General Public License License - see the 
 
 * The 7 Days To Die community
 * Ottopia - For helping me with Read Me and GitHub over all
-* JaxTeller718 - For making the Car Respawner Modlet [GitHub](https://github.com/JaxTeller718/JaxModletsA182B5)
+* JaxTeller718 - For making the Car Respawner Modlet - [GitHub](https://github.com/JaxTeller718/JaxModletsA182B5)
