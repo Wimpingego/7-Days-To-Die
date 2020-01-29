@@ -1,0 +1,29 @@
+<configs>
+	<append xpath="/recipes">
+
+		<recipe name="woodCross" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+	<ingredient name="resourceWood" count="4"/>
+		</recipe>
+		<recipe name="woodCrossCtr" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+	<ingredient name="resourceWood" count="4"/>
+		</recipe>
+		<recipe name="woodCrossHalf" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+	<ingredient name="resourceWood" count="2"/>
+		</recipe>	
+		<recipe name="woodPoleSupport" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+	<ingredient name="resourceWood" count="4"/>
+		</recipe>
+		<recipe name="woodPoleSupport2" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+	<ingredient name="resourceWood" count="4"/>
+		</recipe>
+		<recipe name="woodPoleSupportCtr" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+	<ingredient name="resourceWood" count="4"/>
+		</recipe>	
+
+		<recipe name="apparelTShirtZU" count="1">
+	<ingredient name="apparelTShirtPlain" count="1"/>
+	<ingredient name="resourcePaint" count="1"/>
+		</recipe>		
+
+	</append>
+</configs>
