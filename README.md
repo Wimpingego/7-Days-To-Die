@@ -10,7 +10,7 @@ Feel free to edit and improve anything you find here.
 
 **Zombie Chop Shop** - Time to put them dead Z’s to some good use again
 
-**Ammo Dismantling** - Dismantle your ammo into Ammo Parts (old but I will fix bugs if found)
+**Ammo Dismantling** - Dismantle your ammo into Ammo Parts (Old but I will fix bugs if found)
 
 **Ammo Uncrafting** - Uncraft your ammo but at a cost.
 
