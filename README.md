@@ -10,11 +10,13 @@ Feel free to edit and improve anything you find here.
 
 **Zombie Chop Shop** - Time to put them dead Z’s to some good use again
 
-**Ammo Dismantling** - Dismantle your ammo into Ammo Parts
+**Ammo Dismantling** - Dismantle your ammo into Ammo Parts (old but I will fix bugs if found)
 
 **Ammo Uncrafting** - Uncraft your ammo but at a cost.
 
 **Pick Me Up** - ‘That would look good in my home. I’m taking it with me!’
+
+**Unlock The Locked** - Add recipes to items ingame that dont have them.
 
 ## Installing
 
