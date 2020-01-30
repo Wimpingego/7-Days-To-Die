@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Ego's Unlock The Locked" />
+		<Description value="Add recipes to items ingame that dnt have them" />
+		<Author value="WimpingEgo" />
+		<Version value="A18" />	
+	</ModInfo>
+</xml>

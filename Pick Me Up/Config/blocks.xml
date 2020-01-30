@@ -66,45 +66,6 @@
 	<append xpath="/blocks/block[contains(@name, 'trapSpikesWoodMaster')]">
 		<property name="CanPickup" value="true" />
 	</append>	
-<!--
-	<append xpath="/blocks/block[contains(@name, 'palletWhiteBagsBase')]">
-		<property name="CanPickup" value="true" />
-	</append>
-	
-	<append xpath="/blocks/block[contains(@name, 'palletBrownBoxesBase')]">
-		<property name="CanPickup" value="true" />
-	</append>
-	
-	<append xpath="/blocks/block[contains(@name, 'palletBricksBase')]">
-		<property name="CanPickup" value="true" />
-	</append>
-	
-	<append xpath="/blocks/block[contains(@name, 'palletBlueTarpBase')]">
-		<property name="CanPickup" value="true" />
-	</append>
-	
-	<append xpath="/blocks/block[contains(@name, 'palletCompressedCardboard')]">
-		<property name="CanPickup" value="true" />
-	</append>
-	
-	<append xpath="/blocks/block[contains(@name, 'palletEmpty')]">
-		<property name="CanPickup" value="true" />
-	</append>
-	
-	<append xpath="/blocks/block[contains(@name, 'palletEmptyStack')]">
-		<property name="CanPickup" value="true" />
-	</append>
-	
-	<append xpath="/blocks/block[contains(@name, 'modularFireWoodStackA')]">
-		<property name="CanPickup" value="true" />
-	</append>
-	
-	<append xpath="/blocks/block[contains(@name, 'cntShippingCrateShamway')]">
-		<property name="CanPickup" value="true"/>
-	</append>
-	
-	<append xpath="/blocks/block[contains(@name, 'wineBarrel')]">
-		<property name="CanPickup" value="true"/>
-	</append> -->
+
 </configs>
 
