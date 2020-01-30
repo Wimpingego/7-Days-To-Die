@@ -10,13 +10,14 @@ Feel free to edit and improve anything you find here.
 
 **[Zombie Chop Shop](https://github.com/Wimpingego/7-Days-To-Die/tree/master/Zombie%20Chop%20Shop)** - Time to put them dead Z’s to some good use again
 
-**[Ammo Dismantling](https://github.com/Wimpingego/7-Days-To-Die/tree/master/Ammo%20Dismantling)** - Dismantle your ammo into Ammo Parts (Old but I will fix bugs if found)
-
 **[Ammo Uncrafting](https://github.com/Wimpingego/7-Days-To-Die/tree/master/Ammo%20Uncrafting)** - Uncraft your ammo but at a cost.
 
 **[Pick Me Up](https://github.com/Wimpingego/7-Days-To-Die/tree/master/Pick%20Me%20Up)** - ‘That would look good in my home. I’m taking it with me!’
 
 **[Unlock The Locked](https://github.com/Wimpingego/7-Days-To-Die/tree/master/Unlock%20The%20Locked)** - Add recipes to items ingame that dont have them.
+
+**[Ammo Dismantling](https://github.com/Wimpingego/7-Days-To-Die/tree/master/Ammo%20Dismantling)** - Dismantle your ammo into Ammo Parts (Old but I will fix bugs if found)
+
 
 ## Installing
 
