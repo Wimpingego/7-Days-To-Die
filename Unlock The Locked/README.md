@@ -2,11 +2,11 @@
 
 # Ego's Unlock The Locked
 
-Add recipes to items ingame that dnt have them
+Add recipes to items ingame that dont have them
 
 ## Whats this Modlet does
 
-Have you always wanted that one item that you see in a poi but you cant make it, well now you can.
+Have you always wanted that one item/block that you see in a poi but you cant make it, well now you can.
 
 With this "Modlet" you can make items/block in the game that you can't normally.
 
