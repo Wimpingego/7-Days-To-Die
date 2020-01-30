@@ -13,8 +13,13 @@ With this "Modlet" you can make items/block in the game that you can't normally.
 The items/blocks you can make are:
 
 * TShirt ZU
+
 * Wood Cross plus its centre versions
 * Wood Pole Support plus its other versions
+* Wood Window Trim Top, Bottom, Sides and Fancy versions
+* Door Trims
+* Window
+* House Front Door 1 & 2
 
 The items cost can be changed in the ```recipes.xml``` file.
 

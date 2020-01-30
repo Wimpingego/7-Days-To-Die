@@ -1,25 +1,87 @@
 <configs>
 	<append xpath="/recipes">
 
+<!-- Adds recipe to Table Saw -->
+
 		<recipe name="woodCross" count="1" craft_area="tablesaw" tags="tableSawCrafting">
 	<ingredient name="resourceWood" count="4"/>
 		</recipe>
+	
 		<recipe name="woodCrossCtr" count="1" craft_area="tablesaw" tags="tableSawCrafting">
 	<ingredient name="resourceWood" count="4"/>
 		</recipe>
+	
 		<recipe name="woodCrossHalf" count="1" craft_area="tablesaw" tags="tableSawCrafting">
 	<ingredient name="resourceWood" count="2"/>
 		</recipe>	
+	
 		<recipe name="woodPoleSupport" count="1" craft_area="tablesaw" tags="tableSawCrafting">
 	<ingredient name="resourceWood" count="4"/>
 		</recipe>
+	
 		<recipe name="woodPoleSupport2" count="1" craft_area="tablesaw" tags="tableSawCrafting">
 	<ingredient name="resourceWood" count="4"/>
 		</recipe>
+	
 		<recipe name="woodPoleSupportCtr" count="1" craft_area="tablesaw" tags="tableSawCrafting">
 	<ingredient name="resourceWood" count="4"/>
 		</recipe>	
 
+		<recipe name="woodWindowTrim" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+	<ingredient name="resourceWood" count="6"/>
+		</recipe>
+	
+		<recipe name="woodWindowTrimBottom" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+	<ingredient name="resourceWood" count="6"/>
+		</recipe>
+
+		<recipe name="woodWindowTrimTop" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+	<ingredient name="resourceWood" count="6"/>
+		</recipe>
+
+		<recipe name="woodWindowTrimSides" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+	<ingredient name="resourceWood" count="6"/>
+		</recipe>
+
+		<recipe name="woodWindowTrimTopFancy" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+	<ingredient name="resourceWood" count="6"/>
+		</recipe>
+		
+		<recipe name="doorTrimTop" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+	<ingredient name="resourceWood" count="6"/>
+		</recipe>
+	
+		<recipe name="doorTrim2m" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+	<ingredient name="resourceWood" count="6"/>
+		</recipe>
+		
+		<recipe name="window02" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+	<ingredient name="resourceWood" count="6"/>
+	<ingredient name="glassBlockVariantHelper" count="1"/>
+		</recipe>
+		
+		<recipe name="houseFrontDoor1_v1" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+	<ingredient name="resourceWood" count="6"/>
+	<ingredient name="resourceDoorKnob" count="1"/>
+		</recipe>
+	
+		<recipe name="houseFrontDoor2_v1" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+	<ingredient name="resourceWood" count="6"/>
+	<ingredient name="resourceDoorKnob" count="1"/>
+		</recipe>
+		
+	<!-- Adds recipe to Forge -->
+
+		<recipe name="resourceDoorKnob" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+	<ingredient name="unit_brass" count="15"/>
+	<ingredient name="unit_clay" count="3"/>
+		<effect_group>
+			<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_brass"/>
+		</effect_group>
+		</recipe>	
+
+	<!-- Adds recipe -->
+	
 		<recipe name="apparelTShirtZU" count="1">
 	<ingredient name="apparelTShirtPlain" count="1"/>
 	<ingredient name="resourcePaint" count="1"/>
