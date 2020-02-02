@@ -83,7 +83,6 @@
 	<property name="SortOrder1" value="a030"/>
 	<property name="SortOrder2" value="0002"/>
 </block>  
-	</append>
+	</append>		
 <!--Ego's Added Code-->
-
 </config>

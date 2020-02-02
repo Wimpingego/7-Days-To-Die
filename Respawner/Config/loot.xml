@@ -1,6 +1,5 @@
 <config>
 
-
 	<remove xpath="/lootcontainers/lootcontainer[@id='25']"/>
 
 <append xpath="/lootcontainers">	
