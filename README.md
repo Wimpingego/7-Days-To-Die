@@ -16,9 +16,6 @@ Feel free to edit and improve anything you find here.
 
 **[Unlock The Locked](https://github.com/Wimpingego/7-Days-To-Die/tree/master/Unlock%20The%20Locked)** - Add recipes to items ingame that dont have them.
 
-**[Ammo Dismantling](https://github.com/Wimpingego/7-Days-To-Die/tree/master/Ammo%20Dismantling)** - Dismantle your ammo into Ammo Parts (Old but I will fix bugs if found)
-
-
 ## Installing
 
 Download and unzip the project from [GitHub](https://github.com/Wimpingego/7-Days-To-Die/archive/master.zip).
