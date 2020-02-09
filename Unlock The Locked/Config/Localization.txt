@@ -1,0 +1,6 @@
+Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+Expanded_Barrels,,blocks,Blocks,New,Expanded Barrels,,,,,
+Expanded_Wood,,blocks,Blocks,New,Expanded Wood,,,,,
+Expanded_Windows,,blocks,Blocks,New,Expanded Windows,,,,,
+Expanded_Doors,,blocks,Blocks,New,Expanded Doors,,,,,

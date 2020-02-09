@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+<append xpath="/blocks">
+
+<block name="Expanded_Barrels">
+	<property name="Extends" value="scrapIronFrameMaster"/>
+	<property name="CustomIcon" value="cntBarrelGenericSingle00"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="DescriptionKey" value="cntBarrelGroupDesc"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true" />
+	<property name="PlaceAltBlockValue" value="cntBarrelGenericSingle00,cntBarrelGasSingle00,cntBarrelOilSingle00,cntBarrelRadiatedSingle00,cntBarrelAcidSingle00,cntBarrelPlasticSingle00,cntBarrelGenericSingle45,cntBarrelGasSingle45,cntBarrelOilSingle45,cntBarrelRadiatedSingle45,cntBarrelAcidSingle45,cntBarrelPlasticSingle45,cntBarrelGenericQuadA,cntBarrelGasQuadA,cntBarrelOilQuadA,cntBarrelRadiatedQuadA,cntBarrelAcidQuadA,cntBarrelPlasticQuadA,cntBarrelGenericQuadB,cntBarrelGasQuadB,cntBarrelOilQuadB,cntBarrelRadiatedQuadB,cntBarrelAcidQuadB,cntBarrelPlasticQuadB,palletEmpty,palletEmptyStack"/>
+	<property name="Group" value="Decor/Miscellaneous"/>
+</block>
+
+<block name="Expanded_Wood">
+	<property name="Extends" value="woodCross"/>
+	<property name="CustomIcon" value="woodCrossCtr"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="DescriptionKey" value="rWoodGroupDesc"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true" />
+	<property name="PlaceAltBlockValue" value="woodCrossCtr,woodCross,woodCrossHalf,woodPoleSupport,woodPoleSupport2,woodPoleSupportCtr,woodWindowTrim,woodWindowTrimBottom,woodWindowTrimTop,woodWindowTrimSides,woodWindowTrimTopFancy,doorTrimTop,doorTrim2m,woodRampInclineFillerHalf1,woodRampInclineFillerHalf2,woodRampInclineHalf1,woodRampInclineHalf2,woodWedgeTipHalf1,woodWedgeTipHalf2,woodInclineTipHalf1,woodInclineTipHalf2,woodQuarter"/>
+	<property name="Group" value="Building,advBuilding"/>
+</block>
+
+<block name="Expanded_Windows">
+	<property name="Extends" value="window02"/>
+	<property name="CustomIcon" value="window03Wood"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="DescriptionKey" value="rWoodGroupDesc"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true" />
+	<property name="PlaceAltBlockValue" value="window02,window02Broken01CTRPlate,window02Broken02CTRPlate,window02Broken03CTRPlate,window03Broke1,window03Broke2,window03Broke3,window03Broke4,window03Wood,window03WoodBroke1,window03WoodBroke2,window03WoodBroke3,window03WoodBroke4,window04"/>
+	<property name="Group" value="Decor/Miscellaneous"/>
+</block>
+
+<block name="Expanded_Doors">
+	<property name="Extends" value="houseFrontDoor1_v1"/>
+	<property name="CustomIcon" value="houseFrontDoor1_v1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="PlaceAltBlockValue" value="houseFrontDoor1_v1,houseFrontDoor2_v1,commercialDoor1_v1,commercialDoor2_v1,commercialDoor4_v1"/>
+</block>
+
+</append>
+
+</configs>

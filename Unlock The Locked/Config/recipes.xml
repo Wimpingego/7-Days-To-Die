@@ -8,52 +8,18 @@
 	<ingredient name="resourcePaint" count="1"/>
 		</recipe>	
 
-		<recipe name="cntBarrelAcidQuadA" count="1">
-	<ingredient name="cntBarrelAcidSingle00" count="4"/>
-	<ingredient name="palletEmpty" count="1"/>
-		</recipe>
-
-		<recipe name="cntBarrelGasQuadA" count="1">
-	<ingredient name="cntBarrelGasSingle00" count="4"/>
-	<ingredient name="palletEmpty" count="1"/>
-		</recipe>
-
-		<recipe name="cntBarrelGenericQuadA" count="1">
-	<ingredient name="cntBarrelGenericSingle00" count="4"/>
-	<ingredient name="palletEmpty" count="1"/>
-		</recipe>	
-
-		<recipe name="cntBarrelOilQuadA" count="1">
-	<ingredient name="cntBarrelOilSingle00" count="4"/>
-	<ingredient name="palletEmpty" count="1"/>
-		</recipe>		
-
-		<recipe name="cntBarrelPlasticQuadA" count="1">
-	<ingredient name="cntBarrelPlasticSingle00" count="4"/>
-	<ingredient name="palletEmpty" count="1"/>
-		</recipe>	
-
-		<recipe name="cntBarrelRadiatedQuadA" count="1">
-	<ingredient name="cntBarrelRadiatedSingle00" count="4"/>
-	<ingredient name="palletEmpty" count="1"/>
-		</recipe>
-
-		<recipe name="palletEmptyStack" count="1">
-	<ingredient name="palletEmpty" count="5"/>
-		</recipe>	
-
 <!-- Adds recipe to Workbench -->	
-
-<recipe name="cntBarrelPlasticSingle00" count="1" craft_time="120" craft_area="workbench" tags="workbenchCrafting">
-	<ingredient name="resourceScrapPolymers" count="25"/>
-	<ingredient name="resourceYuccaFibers" count="40"/>
-</recipe>
 
 <recipe name="decoLargePetCage" count="1" craft_time="240" craft_area="workbench" tags="workbenchCrafting">
 	<ingredient name="resourceScrapPolymers" count="25"/>
 	<ingredient name="resourceSpring" count="1"/>
 	<ingredient name="resourceMechanicalParts" count="1"/>
 	<ingredient name="ironBars" count="1"/>		
+</recipe>
+
+<recipe name="Expanded_Barrels" count="1" craft_time="240" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="6"/>
+	<ingredient name="resourceWood" count="20"/>	
 </recipe>
 
 <recipe name="modularFireWoodStackA" count="1" craft_time="240" craft_area="workbench" tags="workbenchCrafting">
@@ -66,112 +32,19 @@
 
 <!-- Adds recipe to Table Saw -->
 
-		<recipe name="woodCross" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="4"/>
-		</recipe>
-	
-		<recipe name="woodCrossCtr" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="4"/>
-		</recipe>
-	
-		<recipe name="woodCrossHalf" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="2"/>
-		</recipe>	
-	
-		<recipe name="woodPoleSupport" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="4"/>
-		</recipe>
-	
-		<recipe name="woodPoleSupport2" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="4"/>
-		</recipe>
-	
-		<recipe name="woodPoleSupportCtr" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="4"/>
-		</recipe>	
-
-		<recipe name="woodWindowTrim" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="6"/>
-		</recipe>
-	
-		<recipe name="woodWindowTrimBottom" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="6"/>
-		</recipe>
-
-		<recipe name="woodWindowTrimTop" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="6"/>
-		</recipe>
-
-		<recipe name="woodWindowTrimSides" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="6"/>
-		</recipe>
-
-		<recipe name="woodWindowTrimTopFancy" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="6"/>
+		<recipe name="Expanded_Windows" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+	<ingredient name="resourceWood" count="20"/>
+	<ingredient name="glassBlockVariantHelper" count="4"/>
 		</recipe>
 		
-		<recipe name="doorTrimTop" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="6"/>
-		</recipe>
-	
-		<recipe name="doorTrim2m" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="6"/>
-		</recipe>
-		
-		<recipe name="window02" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="6"/>
-	<ingredient name="glassBlockVariantHelper" count="1"/>
-		</recipe>
-		
-		<recipe name="houseFrontDoor1_v1" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="6"/>
+		<recipe name="Expanded_Doors" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+	<ingredient name="resourceWood" count="20"/>
 	<ingredient name="resourceDoorKnob" count="1"/>
 		</recipe>
 	
-		<recipe name="houseFrontDoor2_v1" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="6"/>
-	<ingredient name="resourceDoorKnob" count="1"/>
-		</recipe>
-
-		<recipe name="palletEmpty" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="10"/>
-		</recipe>	
-
-		<recipe name="woodRampInclineFillerHalf1" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="6"/>
-		</recipe>	
-
-		<recipe name="woodRampInclineFillerHalf2" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="6"/>
-		</recipe>
-
-		<recipe name="woodRampInclineHalf1" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="6"/>
-		</recipe>	
-
-		<recipe name="woodRampInclineHalf2" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="6"/>
-		</recipe>
-
-		<recipe name="woodWedgeTipHalf1" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="6"/>
-		</recipe>	
-
-		<recipe name="woodWedgeTipHalf2" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="6"/>
-		</recipe>	
-
-		<recipe name="woodInclineTipHalf1" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="6"/>
-		</recipe>	
-
-		<recipe name="woodInclineTipHalf2" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="6"/>
-		</recipe>	
-
-		<recipe name="woodQuarter" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="4"/>
-		</recipe>			
+		<recipe name="Expanded_Wood" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+	<ingredient name="resourceWood" count="40"/>
+		</recipe>					
 
 	<!-- Adds recipe to Forge -->
 
@@ -181,47 +54,7 @@
 		<effect_group>
 			<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_brass"/>
 		</effect_group>
-		</recipe>
-
-		<recipe name="cntBarrelAcidSingle00" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
-	<ingredient name="unit_iron" count="45"/>
-	<ingredient name="unit_clay" count="6"/>
-		<effect_group>
-			<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_brass"/>
-		</effect_group>
 		</recipe>	
-
-			<recipe name="cntBarrelGasSingle00" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
-	<ingredient name="unit_iron" count="45"/>
-	<ingredient name="unit_clay" count="6"/>
-		<effect_group>
-			<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_brass"/>
-		</effect_group>
-		</recipe>	
-
-			<recipe name="cntBarrelGenericSingle00" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
-	<ingredient name="unit_iron" count="45"/>
-	<ingredient name="unit_clay" count="6"/>
-		<effect_group>
-			<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_brass"/>
-		</effect_group>
-		</recipe>	
-
-			<recipe name="cntBarrelOilSingle00" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
-	<ingredient name="unit_iron" count="45"/>
-	<ingredient name="unit_clay" count="6"/>
-		<effect_group>
-			<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_brass"/>
-		</effect_group>
-		</recipe>					
-
-			<recipe name="cntBarrelRadiatedSingle00" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
-	<ingredient name="unit_iron" count="45"/>
-	<ingredient name="unit_clay" count="6"/>
-		<effect_group>
-			<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_brass"/>
-		</effect_group>
-		</recipe>		
 
 	</append>
 </configs>
