@@ -67,5 +67,21 @@
 		<property name="CanPickup" value="true" />
 	</append>	
 
+	<append xpath="/blocks/block[@name='trapSpikesNew']">
+		<property name="CanPickup" value="true"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='mineCandyTin']">	
+		<property name="CanPickup" value="true"/>
+	</append>		
+
+	<append xpath="/blocks/block[@name='mineAirFilter']">
+		<property name="CanPickup" value="true"/>
+	</append>		
+
+	<append xpath="/blocks/block[@name='rScrapIronPlateMine']">	
+		<property name="CanPickup" value="true"/>
+	</append>	
+
 </configs>
 
