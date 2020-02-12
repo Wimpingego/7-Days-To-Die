@@ -1,0 +1,9 @@
+<configs>
+  <append xpath="/styles/global">
+      <style_entry name="stamina" value="0,54,255,128" />   
+      <style_entry name="health" value="179,4,4,205" />
+      <style_entry name="xp" value="126,252,0,160" />
+      <style_entry name="water" value="3,76,171,128" />   
+      <style_entry name="food" value="5,158,5,128" /> 
+  </append>
+</configs>
