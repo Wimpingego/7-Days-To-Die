@@ -48,4 +48,8 @@
 
 </append>
 
+<append xpath="/blocks/block[contains(@name, 'cntShoppingCart')]">
+	<property name="VehicleHitScale" value="999"/>
+</append>
+
 </configs>
