@@ -3,58 +3,86 @@
 
 <!-- Adds recipe -->
 	
-		<recipe name="apparelTShirtZU" count="1">
-	<ingredient name="apparelTShirtPlain" count="1"/>
-	<ingredient name="resourcePaint" count="1"/>
-		</recipe>	
+	<recipe name="apparelTShirtZU" count="1">
+		<ingredient name="apparelTShirtPlain" count="1"/>
+		<ingredient name="resourcePaint" count="1"/>
+	</recipe>	
+
+    <recipe name="modDyeRed" count="1">
+    	<ingredient name="resourcePaint" count="15" />
+    </recipe>
+    <recipe name="modDyeGreen" count="1">
+    	<ingredient name="resourcePaint" count="15" />
+    </recipe>
+    <recipe name="modDyeBlack" count="1">
+    	<ingredient name="resourcePaint" count="15" />
+    </recipe>
+    <recipe name="modDyeBlue" count="1">
+    	<ingredient name="resourcePaint" count="15" />
+    </recipe>
+    <recipe name="modDyeBrown" count="1">
+    	<ingredient name="resourcePaint" count="15" />
+    </recipe>
+    <recipe name="modDyePink" count="1">
+    	<ingredient name="resourcePaint" count="15" />
+    </recipe>
+    <recipe name="modDyePurple" count="1">
+    	<ingredient name="resourcePaint" count="15" />
+    </recipe>
+    <recipe name="modDyeYellow" count="1">
+    	<ingredient name="resourcePaint" count="15" />
+    </recipe>
 
 <!-- Adds recipe to Workbench -->	
 
-<recipe name="decoLargePetCage" count="1" craft_time="240" craft_area="workbench" tags="workbenchCrafting">
-	<ingredient name="resourceScrapPolymers" count="25"/>
-	<ingredient name="resourceSpring" count="1"/>
-	<ingredient name="resourceMechanicalParts" count="1"/>
-	<ingredient name="ironBars" count="1"/>		
-</recipe>
+	<recipe name="decoLargePetCage" count="1" craft_time="240" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceScrapPolymers" count="25"/>
+		<ingredient name="resourceSpring" count="1"/>
+		<ingredient name="resourceMechanicalParts" count="1"/>
+		<ingredient name="ironBars" count="1"/>		
+	</recipe>
 
-<recipe name="Expanded_Barrels" count="1" craft_time="240" craft_area="workbench" tags="workbenchCrafting">
-	<ingredient name="resourceForgedIron" count="6"/>
-	<ingredient name="resourceWood" count="20"/>	
-</recipe>
+	<recipe name="Expanded_Barrels" count="1" craft_time="240" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceForgedIron" count="6"/>
+		<ingredient name="resourceWood" count="20"/>	
+	</recipe>
 
-<recipe name="modularFireWoodStackA" count="1" craft_time="240" craft_area="workbench" tags="workbenchCrafting">
-	<ingredient name="resourceWood" count="150"/>
-</recipe>
+	<recipe name="modularFireWoodStackA" count="1" craft_time="240" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceWood" count="150"/>
+	</recipe>
 
-<recipe name="modularFireWoodStackB" count="1" craft_time="240" craft_area="workbench" tags="workbenchCrafting">
-	<ingredient name="resourceWood" count="150"/>	
-</recipe>
+	<recipe name="modularFireWoodStackB" count="1" craft_time="240" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceWood" count="150"/>	
+	</recipe>
 
 <!-- Adds recipe to Table Saw -->
 
-		<recipe name="Expanded_Windows" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="20"/>
-	<ingredient name="glassBlockVariantHelper" count="4"/>
-		</recipe>
+	<recipe name="Expanded_Windows" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+		<ingredient name="resourceWood" count="20"/>
+		<ingredient name="glassBlockVariantHelper" count="4"/>
+	</recipe>
 		
-		<recipe name="Expanded_Doors" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="20"/>
-	<ingredient name="resourceDoorKnob" count="1"/>
-		</recipe>
+	<recipe name="Expanded_Doors" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+		<ingredient name="resourceWood" count="20"/>
+		<ingredient name="resourceDoorKnob" count="1"/>
+	</recipe>
 	
-		<recipe name="Expanded_Wood" count="1" craft_area="tablesaw" tags="tableSawCrafting">
-	<ingredient name="resourceWood" count="40"/>
-		</recipe>					
+	<recipe name="Expanded_Wood" count="1" craft_area="tablesaw" tags="tableSawCrafting">
+		<ingredient name="resourceWood" count="40"/>
+	</recipe>					
 
 	<!-- Adds recipe to Forge -->
 
-		<recipe name="resourceDoorKnob" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
-	<ingredient name="unit_brass" count="15"/>
-	<ingredient name="unit_clay" count="3"/>
-		<effect_group>
-			<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_brass"/>
-		</effect_group>
-		</recipe>	
+	<recipe name="resourceDoorKnob" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering">
+		<ingredient name="unit_brass" count="15"/>
+		<ingredient name="unit_clay" count="3"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" operation="perc_add" level="0,1,2,3,4" value=".25,.25,.25,.177,.12" tags="unit_brass"/>
+			</effect_group>
+	</recipe>	
+
+	<!-- Adds recipe to Chemistry Station -->
+
 
 	</append>
 </configs>
