@@ -3,55 +3,8 @@
 <configs>
 
 <!-- Can Pickup Mod -->	
-	<append xpath="/blocks/block[contains(@name, 'decoPoolTable')]">
-		<property name="CanPickup" value="true" />
-	</append>
-
-	<append xpath="/blocks/block[contains(@name, 'parkBenchA')]">
-		<property name="CanPickup" value="true" />
-	</append>
-
-	<append xpath="/blocks/block[contains(@name, 'parkBenchB')]">
-		<property name="CanPickup" value="true" />
-	</append>	
-
-	<append xpath="/blocks/block[contains(@name, 'decoBenchPress')]">
-		<property name="CanPickup" value="true" />
-	</append>	
-
-	<append xpath="/blocks/block[contains(@name, 'decoPicnicTable')]">
-		<property name="CanPickup" value="true" />
-	</append>
-
-	<append xpath="/blocks/block[contains(@name, 'endTable')]">
-		<property name="CanPickup" value="true" />
-	</append>
 
 	<append xpath="/blocks/block[contains(@name, 'bed02')]">
-		<property name="CanPickup" value="true" />
-	</append>
-
-	<append xpath="/blocks/block[contains(@name, 'decoWeightBar')]">
-		<property name="CanPickup" value="true" />
-	</append>
-
-	<append xpath="/blocks/block[contains(@name, 'decoSwingSet')]">
-		<property name="CanPickup" value="true" />
-	</append>
-
-	<append xpath="/blocks/block[contains(@name, 'decoMetalSlide')]">
-		<property name="CanPickup" value="true" />
-	</append>
-
-	<append xpath="/blocks/block[contains(@name, 'decoTreadmill')]">
-		<property name="CanPickup" value="true" />
-	</append>
-
-	<append xpath="/blocks/block[contains(@name, 'decoStationaryBike')]">
-		<property name="CanPickup" value="true" />
-	</append>	
-
-	<append xpath="/blocks/block[contains(@name, 'decoReptileTerrarium')]">
 		<property name="CanPickup" value="true" />
 	</append>
 	 
