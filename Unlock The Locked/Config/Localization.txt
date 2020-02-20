@@ -4,3 +4,25 @@ Expanded_Barrels,,blocks,Blocks,New,Expanded Barrels,,,,,
 Expanded_Wood,,blocks,Blocks,New,Expanded Wood,,,,,
 Expanded_Windows,,blocks,Blocks,New,Expanded Windows,,,,,
 Expanded_Doors,,blocks,Blocks,New,Expanded Doors,,,,,
+Gym_Time,,blocks,Blocks,New,Gym Time,,,,,
+Home_Deco,,blocks,Blocks,New,Home Deco,,,,,
+Park_Life,,blocks,Blocks,New,Park Life,,,,,
+Bathroom_Plus,,blocks,Blocks,New,Bathroom Plus,,,,,
+Kitchen_Plus,,blocks,Blocks,New,Kitchen Plus,,,,,
+Army_Plus,,blocks,Blocks,New,Army Plus,,,,,
+
+cntBarrelAcidQuadA,blocks,Block,,,Acid Barrel Group
+cntBarrelAcidQuadB,blocks,Block,,,Acid Barrel Group
+cntBarrelAcidSingle00,blocks,Block,,,Acid Barrel
+cntBarrelGasQuadA,blocks,Block,,,Gas Barrel Group
+cntBarrelGasQuadB,blocks,Block,,,Gas Barrel Group
+cntBarrelGenericQuadA,blocks,Block,,,Rusty Barrel Group
+cntBarrelGenericQuadB,blocks,Block,,,Rusty Barrel Group
+cntBarrelOilQuadA,blocks,Block,,,Oil Barrel Group
+cntBarrelOilQuadB,blocks,Block,,,Oil Barrel Group
+cntBarrelPlasticQuadA,blocks,Block,,,Plastic Barrel Group
+cntBarrelPlasticQuadB,blocks,Block,,,Plastic Barrel Group
+cntBarrelRadiatedQuadA,blocks,Block,,,Radioactive Waste Barrel Group
+cntBarrelRadiatedQuadB,blocks,Block,,,Radioactive Waste Barrel Group
+cntBarrelWhiteQuadA,blocks,Block,,,White Barrel Group
+cntBarrelWhiteQuadB,blocks,Block,,,White Barrel Group

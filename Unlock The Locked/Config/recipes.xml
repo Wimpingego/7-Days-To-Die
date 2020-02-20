@@ -35,24 +35,53 @@
 
 <!-- Adds recipe to Workbench -->	
 
-	<recipe name="decoLargePetCage" count="1" craft_time="240" craft_area="workbench" tags="workbenchCrafting">
-		<ingredient name="resourceScrapPolymers" count="25"/>
-		<ingredient name="resourceSpring" count="1"/>
-		<ingredient name="resourceMechanicalParts" count="1"/>
-		<ingredient name="ironBars" count="1"/>		
+	<recipe name="Army_Plus" count="1" craft_time="240" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceScrapPolymers" count="15"/>
+		<ingredient name="resourceMetalPipe" count="5"/>
+		<ingredient name="resourceMechanicalParts" count="5"/>
+		<ingredient name="resourceElectricParts" count="5"/>
+		<ingredient name="resourceForgedIron" count="2"/>				
 	</recipe>
 
-	<recipe name="Expanded_Barrels" count="1" craft_time="240" craft_area="workbench" tags="workbenchCrafting">
+	<recipe name="Kitchen_Plus" count="1" craft_time="240" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceScrapPolymers" count="10"/>
+		<ingredient name="resourceMetalPipe" count="10"/>
+		<ingredient name="resourceMechanicalParts" count="15"/>
+		<ingredient name="resourceElectricParts" count="15"/>
+		<ingredient name="resourceForgedIron" count="5"/>		
+	</recipe>
+
+	<recipe name="Bathroom_Plus" count="1" craft_time="240" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceRockSmall" count="15"/>
+		<ingredient name="resourceForgedIron" count="5"/>
+		<ingredient name="resourceMetalPipe" count="10"/>	
+		<ingredient name="resourceBrokenGlass" count="5"/>					
+	</recipe>
+
+	<recipe name="Gym_Time" count="1" craft_time="240" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceScrapPolymers" count="25"/>
+		<ingredient name="resourceForgedIron" count="15"/>
+		<ingredient name="resourceMechanicalParts" count="5"/>
+		<ingredient name="resourceElectricParts" count="5"/>		
+	</recipe>
+
+	<recipe name="Park_Life" count="1" craft_time="240" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceScrapPolymers" count="25"/>
+		<ingredient name="resourceForgedIron" count="5"/>
+		<ingredient name="resourceWood" count="20"/>		
+	</recipe>	
+
+	<recipe name="Home_Deco" count="1" craft_time="240" craft_area="workbench" tags="workbenchCrafting">
+		<ingredient name="resourceScrapPolymers" count="15"/>
+		<ingredient name="resourceForgedIron" count="5"/>
+		<ingredient name="resourceCrushedSand" count="30"/>	
+		<ingredient name="resourceBrokenGlass" count="5"/>			
+		<ingredient name="resourceWood" count="20"/>		
+	</recipe>		
+
+	<recipe name="Expanded_Barrels" count="1" craft_time="120" craft_area="workbench" tags="workbenchCrafting">
 		<ingredient name="resourceForgedIron" count="6"/>
 		<ingredient name="resourceWood" count="20"/>	
-	</recipe>
-
-	<recipe name="modularFireWoodStackA" count="1" craft_time="240" craft_area="workbench" tags="workbenchCrafting">
-		<ingredient name="resourceWood" count="150"/>
-	</recipe>
-
-	<recipe name="modularFireWoodStackB" count="1" craft_time="240" craft_area="workbench" tags="workbenchCrafting">
-		<ingredient name="resourceWood" count="150"/>	
 	</recipe>
 
 <!-- Adds recipe to Table Saw -->

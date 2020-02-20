@@ -10,7 +10,7 @@
 	<property name="DescriptionKey" value="cntBarrelGroupDesc"/>
 	<property name="ItemTypeIcon" value="all_blocks"/>
 	<property name="SelectAlternates" value="true" />
-	<property name="PlaceAltBlockValue" value="cntBarrelGenericSingle00,cntBarrelGasSingle00,cntBarrelOilSingle00,cntBarrelRadiatedSingle00,cntBarrelAcidSingle00,cntBarrelPlasticSingle00,cntBarrelGenericSingle45,cntBarrelGasSingle45,cntBarrelOilSingle45,cntBarrelRadiatedSingle45,cntBarrelAcidSingle45,cntBarrelPlasticSingle45,cntBarrelGenericQuadA,cntBarrelGasQuadA,cntBarrelOilQuadA,cntBarrelRadiatedQuadA,cntBarrelAcidQuadA,cntBarrelPlasticQuadA,cntBarrelGenericQuadB,cntBarrelGasQuadB,cntBarrelOilQuadB,cntBarrelRadiatedQuadB,cntBarrelAcidQuadB,cntBarrelPlasticQuadB,palletEmpty,palletEmptyStack"/>
+	<property name="PlaceAltBlockValue" value="cntBarrelGenericSingle00,cntBarrelGasSingle00,cntBarrelOilSingle00,cntBarrelRadiatedSingle00,cntBarrelAcidSingle00,cntBarrelPlasticSingle00,cntBarrelGenericSingle45,cntBarrelGasSingle45,cntBarrelOilSingle45,cntBarrelRadiatedSingle45,cntBarrelAcidSingle45,cntBarrelPlasticSingle45,cntBarrelGenericQuadA,cntBarrelGasQuadA,cntBarrelOilQuadA,cntBarrelRadiatedQuadA,cntBarrelAcidQuadA,cntBarrelPlasticQuadA,cntBarrelGenericQuadB,cntBarrelGasQuadB,cntBarrelOilQuadB,cntBarrelRadiatedQuadB,cntBarrelAcidQuadB,cntBarrelPlasticQuadB"/>
 	<property name="Group" value="Decor/Miscellaneous"/>
 </block>
 
@@ -21,7 +21,7 @@
 	<property name="DescriptionKey" value="rWoodGroupDesc"/>
 	<property name="ItemTypeIcon" value="all_blocks"/>
 	<property name="SelectAlternates" value="true" />
-	<property name="PlaceAltBlockValue" value="woodCrossCtr,woodCross,woodCrossHalf,woodPoleSupport,woodPoleSupport2,woodPoleSupportCtr,woodWindowTrim,woodWindowTrimBottom,woodWindowTrimTop,woodWindowTrimSides,woodWindowTrimTopFancy,doorTrimTop,doorTrim2m,woodRampInclineFillerHalf1,woodRampInclineFillerHalf2,woodRampInclineHalf1,woodRampInclineHalf2,woodWedgeTipHalf1,woodWedgeTipHalf2,woodInclineTipHalf1,woodInclineTipHalf2,woodQuarter"/>
+	<property name="PlaceAltBlockValue" value="woodCrossCtr,woodCross,woodCrossHalf,woodPoleSupport,woodPoleSupport2,woodPoleSupportCtr,woodWindowTrim,woodWindowTrimBottom,woodWindowTrimTop,woodWindowTrimSides,woodWindowTrimTopFancy,doorTrimTop,doorTrim2m,woodRampInclineFillerHalf1,woodRampInclineFillerHalf2,woodRampInclineHalf1,woodRampInclineHalf2,woodWedgeTipHalf1,woodWedgeTipHalf2,woodInclineTipHalf1,woodInclineTipHalf2,woodQuarter,modularFireWoodStackA,modularFireWoodStackB,modularFireWoodStackC,palletEmpty,palletEmptyStack"/>
 	<property name="Group" value="Building,advBuilding"/>
 </block>
 
@@ -32,7 +32,7 @@
 	<property name="DescriptionKey" value="rWoodGroupDesc"/>
 	<property name="ItemTypeIcon" value="all_blocks"/>
 	<property name="SelectAlternates" value="true" />
-	<property name="PlaceAltBlockValue" value="window02,window02Broken01CTRPlate,window02Broken02CTRPlate,window02Broken03CTRPlate,window03Broke1,window03Broke2,window03Broke3,window03Broke4,window03Wood,window03WoodBroke1,window03WoodBroke2,window03WoodBroke3,window03WoodBroke4,window04"/>
+	<property name="PlaceAltBlockValue" value="window03Wood,window02,window02Broken01CTRPlate,window02Broken02CTRPlate,window02Broken03CTRPlate,window03Broke1,window03Broke2,window03Broke3,window03Broke4,window03WoodBroke1,window03WoodBroke2,window03WoodBroke3,window03WoodBroke4,window04"/>
 	<property name="Group" value="Decor/Miscellaneous"/>
 </block>
 
@@ -46,7 +46,72 @@
 	<property name="PlaceAltBlockValue" value="houseFrontDoor1_v1,houseFrontDoor2_v1,commercialDoor1_v1,commercialDoor2_v1,commercialDoor4_v1"/>
 </block>
 
+<block name="Gym_Time">
+	<property name="Extends" value="decoStationaryBike"/>
+	<property name="CustomIcon" value="decoStationaryBike"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="PlaceAltBlockValue" value="decoStationaryBike,decoTreadmill,decoWeightBar,decoBenchPress"/>
+</block>
+
+<block name="Home_Deco">
+	<property name="Extends" value="decoLargePetCage"/>
+	<property name="CustomIcon" value="decoPoolTable"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="PlaceAltBlockValue" value="decoPoolTable,decoReptileTerrarium,decoLargePetCage,birdBathPlanter,cntWoodBurningStove"/>
+</block>
+
+<block name="Park_Life">
+	<property name="Extends" value="decoBasketBallHoop"/>
+	<property name="CustomIcon" value="decoBasketBallHoop"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="PlaceAltBlockValue" value="decoBasketBallHoop,decoMetalSlide,decoSwingSet"/>
+</block>
+
+<block name="Bathroom_Plus">
+	<property name="Extends" value="mirror"/>
+	<property name="CustomIcon" value="mirror"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="PlaceAltBlockValue" value="mirror,cntBathTubEmpty,cntBathTubGore,decoClawFootBathTub,wallHungSink,cntMedicineCabinetClosed,cntMedicineCabinetOpen,cntToilet01,cntToilet02,cntToilet03"/>
+</block>
+
+<block name="Kitchen_Plus">
+	<property name="Extends" value="cntWallOven"/>
+	<property name="CustomIcon" value="cntWallOven"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="PlaceAltBlockValue" value="cntWallOven,cntStoveOldVer1Closed,cntStoveOldVer2Open,cntMicrowaveOvenVer1Open,cntMicrowaveOvenVer1Closed,cntRetroFridgeVer1Closed,cntFridgeStainlessSteel,utilitySink"/>
+</block>
+
+<block name="Army_Plus">
+	<property name="Extends" value="xRayDisplayLight1"/>
+	<property name="CustomIcon" value="xRayDisplayLight1"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+	<property name="ItemTypeIcon" value="all_blocks"/>
+	<property name="SelectAlternates" value="true"/>
+	<property name="PlaceAltBlockValue" value="xRayDisplayLight1,xRayDisplayLight2,gurneyBed,hospitalBed,cntPillCaseClosed,cntPillCaseEmpty"/>
+</block>
 </append>
+
+<append xpath="/blocks/block[contains(@name, 'woodFurnitureBlockVariantHelper')]">
+	<property name="PlaceAltBlockValue" value="cntStorageGeneric,cntCabinetBottomFiller,cntCabinetBottom,cntCabinetBottomOpen,cntGraniteSink,cntCupboardCabinetRedTopOpen,cntCupboardCabinetRedTopClosed,cntCupboardCornerCNRRed,cntCupboardCabinetFullRedTopClosed,cntCabinetBottomBrokenDoor,cntCabinetOldBottomOpen,cntCabinetOldBottom,cntCabinetOldSink,cntCabinetOldCNRRoundFiller,cntCupboardCabinetOldTopOpen,cntCupboardCabinetOldTopClosed,cntCupboardCornerCNROld,cntCupboardCabinetFullOldTopClosed,cntBookcaseEmpty,cntBookcaseFull,cntPillCase,cntNightstandOpen,cntNightstandClosed,cntWoodDesk01Open,cntWoodDesk01Closed,woodChair1,oldChair1,decoPicnicTable,coffeeTable,endTable,tableDynamic,woodTable,woodCTRQuarter,decoWoodCTRQuarterSquareTop,woodPillar50,decoWoodPillar50SquareTop,woodPillar50CNR,woodPillar50CNRPlate,heatVent,woodSawhorse,decoWildWestWagonWheelBack,decoWildWestWagonWheelFront,decoClassicDogHouse,wineBarrel,wineBarrelSet,wineBarrelPlain,parkBenchA,parkBenchB,pew_segment01,pew_segment02,pew_segment03"/>
+</append>
+
+<!-- Vehices Smash -->
 
 <append xpath="/blocks/block[contains(@name, 'cntShoppingCart')]">
 	<property name="VehicleHitScale" value="999"/>
