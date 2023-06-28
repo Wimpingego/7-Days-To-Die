@@ -1,0 +1,8 @@
+File,Type,English
+
+SkillMagazineBundle_SMB,item,"Magazine Bundle"
+SkillMagazineBundle_SMB_Desc,item,"Magazine bundle of 3 sets of 2 random magazines to aid you in your quest for knowledge"
+
+SkillMagazineBundleSchematic_SMB,item,"Magazine Bundle Schematic"
+SkillMagazineBundleSchematic_SMB_Desc,item,"Reading the schematic will teach you how to craft this item."
+

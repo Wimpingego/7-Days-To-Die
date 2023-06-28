@@ -1,0 +1,39 @@
+<configs>
+	<append xpath="/items">
+
+<!-- *** Skill_Magazine -->
+<item name="SkillMagazineBundle_SMB">
+	<property name="Extends" value="questRewardBundleMaster"/>
+	<property name="Tags" value="SkillMagazineBundle_SMB"/>
+    <property name="CustomIcon" value="SkillMagazineBundle_SMB"/>
+	<property name="CustomIconTint" value="FFFFFF"/>
+	<property name="ItemTypeIcon" value="bundle"/>
+    <property name="DescriptionKey" value="SkillMagazineBundle_SMB_Desc"/>
+	<property name="UnlockedBy" value="craftingWorkstations"/>
+
+	<property name="Stacknumber" value="1"/>
+	<property name="Group" value="workbench"/>
+
+    <property class="Action0">
+       	<property name="Class" value="OpenLootBundle"/>
+    	<property name="Delay" value="0"/>
+    	<property name="Sound_start" value="close_garbage"/>
+    	<property name="LootList" value="questRewardSkillMagazines"/>
+    </property>
+</item>
+
+<item name="SkillMagazineBundleSchematic_SMB">
+	<property name="Extends" value="schematicNoQualityRecipeMaster"/>
+	<property name="CreativeMode" value="Player"/>
+    <property name="CustomIcon" value="SkillMagazineBundle_SMB"/>
+	<property name="CustomIconTint" value="FFFFFF"/>
+	<property name="DescriptionKey" value="SkillMagazineBundleSchematic_SMB_Desc"/>
+	<property name="Unlocks" value="SkillMagazineBundle_SMB"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="SkillMagazineBundle_SMB" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>
+
+	</append>
+</configs>

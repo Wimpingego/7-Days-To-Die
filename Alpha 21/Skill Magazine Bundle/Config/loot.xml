@@ -1,0 +1,8 @@
+<configs>
+<!--
+	<append xpath="/lootcontainers/lootcontainer[@name='crackabookCrate']"><item name="SkillMagazineBundleSchematic_SMB" prob="1"/></append>
+-->	
+
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT0']"><item name="SkillMagazineBundleSchematic_SMB"/></append>
+
+</configs>

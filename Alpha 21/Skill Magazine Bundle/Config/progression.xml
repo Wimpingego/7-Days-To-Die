@@ -1,0 +1,6 @@
+<configs>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[@unlock_level='10,15,20,25']/unlock_entry[@item='workbench']/@item">,SkillMagazineBundle_SMB</append>
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='10,100']/@tags">,SkillMagazineBundle_SMB</append>
+
+</configs>

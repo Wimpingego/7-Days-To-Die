@@ -1,0 +1,13 @@
+<configs>
+
+	<append xpath="/recipes">
+	
+		<!-- SkillMagazineBundle recipe -->
+		<recipe name="SkillMagazineBundle_SMB" count="1" craft_time="45" craft_area="workbench" tags="workbenchCrafting,learnable">
+		<ingredient name="casinoCoin" count="2100"/>
+		<ingredient name="resourcePaper" count="60"/>
+		</recipe>
+
+	</append>
+
+</configs>
