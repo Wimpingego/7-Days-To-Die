@@ -34,4 +34,3 @@ This project is licensed under the GNU General Public License License - see the 
 
 * The 7 Days To Die community
 * Ottopia - For helping me with Read Me and GitHub over all
-*
