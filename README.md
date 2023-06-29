@@ -33,7 +33,7 @@ You may need to create the “Mods” folder if you don’t already have one.
 
 ## Authors
 
-* **WimpingEgo** - [GitHub](https://github.com/wimpingego) / [Twitter](https://twitter.com/Ego_YT) / [Twitch](https://twitch.tv/wimpingego)
+* **WimpingEgo** - [GitHub](https://github.com/wimpingego) / [Twitter](https://twitter.com/wimpingego) / [Twitch](https://twitch.tv/wimpingego)
 
 ## License
 
