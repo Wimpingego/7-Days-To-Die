@@ -6,7 +6,9 @@ Add recipes so you can craft Skill Magazine Bundle.
 
 ## What this Modlet does
 
-With this “Modlet” you can craft Skill Magazine Bundle. You get 3 random sets of 2 skill magazines. The recipe cost is 2100 Duke coins and 60 paper which is the coke of 6 magazines from a trader plus 300 coins to cover the P&P to your door but that can be chnaged in the recipe.xml file if you wish.
+With this “Modlet” you can craft Skill Magazine Bundle.
+You get 3 random sets of 2 skill magazines. The recipe cost is 2100 Duke coins and 60 paper which is the coke of 6 magazines from a trader plus 300 coins to cover the P&P to your door
+but that can be changed in the recipe.xml file if you wish.
 
 ## Installing
 

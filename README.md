@@ -16,7 +16,7 @@ Feel free to edit and improve anything you find here.
 
 **[Unlock The Locked](https://github.com/Wimpingego/7-Days-To-Die/tree/master/Alpha%2018/Unlock%20The%20Locked)** - Add recipes to items ingame that dont have them. (Alpha 18)
 
-**[Skill Magazine Bundle](https://github.com/Wimpingego/7-Days-To-Die/tree/master/Alpha%2021/Skill%20Magazine%20Bundle)** - Add recipes so you can craft Skill Magazine Bundle.(Alpha 21)
+**[Skill Magazine Bundle](https://github.com/Wimpingego/7-Days-To-Die/tree/master/Alpha%2021/Skill%20Magazine%20Bundle)** - Lets you craft a Skill Magazine Bundle. (Alpha 21)
 
 
 ## Installing
