@@ -1,0 +1,280 @@
+<configs>
+	<append xpath="/blocks">
+	<!-- *** WOOD_SPIKES *** -->
+	<block name="SpikesWoodMaster_SS">
+		<property name="CreativeMode" value="None"/>
+		<property name="Class" value="TrunkTip"/>
+		<property name="Damage" value="33"/>
+		<property name="Damage_received" value="13"/>
+		<property name="DescriptionKey" value="SpikesGroupDesc_SS"/>
+		<property name="Material" value="MtrapSpikesWood"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="Entities/Traps/woodSpikesTrapPrefab"/>
+		<property name="ImposterExclude" value="true"/>
+		<property name="LightOpacity" value="6"/>
+		<property name="WaterFlow" value="permitted"/>
+		<property name="Collide" value="movement,melee"/>
+		<property name="Path" value="solid"/>
+		<property name="IsTerrainDecoration" value="false"/>
+		<property name="FuelValue" value="1000"/>
+		<property name="EconomicValue" value="30"/>
+		<property name="EconomicBundleSize" value="20"/>
+		<property name="MaxDamage" value="66"/>
+		<property class="RepairItems">
+			<property name="resourceWood" value="10"/>
+		</property>
+		<property name="UpgradeSound" value="place_block_wood"/>
+		<drop event="Destroy" name="resourceWood" count="2,6"/>
+		<drop event="Fall" count="0"/>
+		<property name="SortOrder1" value="B750"/>
+		<property name="SortOrder2" value="0000"/>
+		<property name="Group" value="Building"/>
+		<property name="BlockTag" value="Spike"/>
+		<property name="FilterTags" value="MC_building,SC_traps"/>
+	</block>
+
+<!-- Player made Stage 3 with blood -->
+	<block name="SpikesWoodDmg2_SS">
+		<property name="Extends" value="SpikesWoodMaster_SS"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/Traps/woodSpikesTrap2BloodPrefab"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="SpikesWoodDmg0_SS"/>
+			<property name="Item" value="resourceWood"/>
+			<property name="ItemCount" value="10"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+		<property name="SortOrder2" value="0001"/>
+	</block>
+
+<!-- Player made Stage 2 with blood -->
+	<block name="SpikesWoodDmg1_SS">
+		<property name="Extends" value="SpikesWoodMaster_SS"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/Traps/woodSpikesTrap1BloodPrefab"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="SpikesWoodDmg0_SS"/>
+			<property name="Item" value="resourceWood"/>
+			<property name="ItemCount" value="5"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+		<property name="DowngradeBlock" value="SpikesWoodDmg2_SS"/>
+		<property name="SortOrder2" value="0002"/>
+	</block>
+
+<!-- Player made Stage 1 with no blood -->
+	<block name="SpikesWoodDmg0_SS">
+		<property name="Extends" value="SpikesWoodMaster_SS"/>
+		<property name="CustomIcon" value="trapSpikesWoodMaster"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="SpikesIronDmg0_SS"/>
+			<property name="Item" value="resourceForgedIron"/>
+			<property name="ItemCount" value="4"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+		<property name="CanPickup" value="true"/>
+		<property name="TintColor" value="BDADAD"/>
+		<property name="DowngradeBlock" value="SpikesWoodDmg1_SS"/>
+		<property name="SortOrder2" value="0003"/>
+	</block>
+
+<!-- *** IRON_SPIKES *** -->
+	<block name="SpikesScrapIronMaster_SS">
+		<property name="CreativeMode" value="None"/>
+		<property name="Class" value="TrunkTip"/>
+		<property name="Damage" value="33"/>
+		<property name="Damage_received" value="13"/>
+		<property name="DescriptionKey" value="SpikesGroupDesc_SS"/>
+		<property name="DisplayType" value="blockHardened"/>
+		<property name="Material" value="MtrapSpikesIron"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="Entities/traps/ironSpikesTrapPrefab"/>
+		<property name="ImposterExclude" value="true"/>
+		<property name="LightOpacity" value="6"/>
+		<property name="WaterFlow" value="permitted"/>
+		<property name="Collide" value="movement,melee"/>
+		<property name="Path" value="solid"/>
+		<property name="IsTerrainDecoration" value="false"/>
+		<property name="EconomicValue" value="30"/>
+		<property name="EconomicBundleSize" value="20"/>
+		<property name="MaxDamage" value="264"/>
+		<property class="RepairItems">
+			<property name="resourceForgedIron" value="2"/>
+		</property>
+		<property name="UpgradeSound" value="place_block_metal"/>
+		<drop event="Destroy" name="resourceScrapIron" count="10,20"/>
+		<drop event="Fall" count="0"/>
+		<property name="SortOrder1" value="B751"/>
+		<property name="SortOrder2" value="0000"/>
+		<property name="Group" value="Building"/>
+		<property name="BlockTag" value="Spike"/>
+		<property name="FilterTags" value="MC_building,SC_traps"/>
+	</block>
+
+<!-- Player made Stage 3 with blood -->
+	<block name="SpikesIronDmg2_SS">
+		<property name="Extends" value="SpikesScrapIronMaster_SS"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/traps/ironSpikesTrap2BloodPrefab"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="SpikesIronDmg0_SS"/>
+			<property name="Item" value="resourceForgedIron"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+		<property name="SortOrder2" value="0001"/>
+	</block>
+
+<!-- Player made Stage 2 with blood -->
+	<block name="SpikesIronDmg1_SS">
+		<property name="Extends" value="SpikesScrapIronMaster_SS"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Model" value="Entities/traps/ironSpikesTrap1BloodPrefab"/>
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="SpikesIronDmg0_SS"/>
+			<property name="Item" value="resourceForgedIron"/>
+			<property name="ItemCount" value="1"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+		<property name="DowngradeBlock" value="SpikesIronDmg2_SS"/>
+		<property name="SortOrder2" value="0002"/>
+	</block>
+
+<!-- Player made Stage 1 with no blood -->
+	<block name="SpikesIronDmg0_SS">
+		<property name="Extends" value="SpikesScrapIronMaster_SS"/>
+		<property name="CustomIcon" value="trapSpikesScrapIronMaster"/>
+		<property name="CanPickup" value="true"/>
+		<property name="TintColor" value="BDADAD"/>
+		<property name="DowngradeBlock" value="SpikesIronDmg1_SS"/>
+		<property name="SortOrder2" value="0003"/>
+	</block>
+
+<!-- *** BARNED_WIRE_FENCE *** -->
+	<block name="barbedFence_SS">
+		<property name="Class" value="TrunkTip"/>
+		<property name="Damage" value="2"/>
+		<property name="DamageType" value="BarbedWire"/>
+		<property name="Damage_received" value="6"/>
+		<property name="MaxDamage" value="300"/>		
+		<property name="CanPlayersSpawnOn" value="false"/>
+		<property name="Material" value="MbarbedFence"/>
+		<property name="Shape" value="New"/>
+		<property name="Mesh" value="cutout"/>
+		<property name="Model" value="trap_barbed_fence_shape"/>
+		<property name="Texture" value="518"/>
+		<property name="LightOpacity" value="0"/>
+		<property name="WaterFlow" value="permitted"/>
+		<property name="Place" value="TowardsPlacer"/>
+		<property name="AllowAllRotations" value="true"/>
+		<property name="OnlySimpleRotations" value="true"/>
+		<property name="Collide" value="melee,rocket"/>
+		<property name="IsTerrainDecoration" value="false"/>
+		<property name="StabilitySupport" value="false"/>
+		<property name="FuelValue" value="150"/>
+		<property name="EconomicValue" value="11"/>
+		<property class="RepairItems">
+			<property name="resourceWood" value="20"/>
+			<property name="resourceScrapIron" value="8"/>
+		</property>
+		<drop event="Harvest" name="resourceWood" count="8" tag="allHarvest"/>
+		<drop event="Harvest" name="resourceScrapIron" count="3" tag="allHarvest"/>
+		<drop event="Destroy" count="0"/>
+		<property name="SortOrder1" value="B752"/>
+		<property name="SortOrder2" value="0001"/>
+		<property name="Group" value="Building"/>
+		<property name="BlockTag" value="Spike"/>
+		<property name="DescriptionKey" value="barbedFenceDesc_SS"/>		
+		<property name="CustomIcon" value="barbedFence"/>		
+		<property name="CanPickup" value="true"/>		
+		<property name="TintColor" value="BDADAD"/>
+		<property name="FilterTags" value="MC_building,MC_playerBlocks,SC_traps"/>
+	</block>
+
+<!-- *** BARNED_WIRE *** -->
+	<block name="barbedWireVariantHelper_SS">
+		<property name="CustomIcon" value="barbedWireSpindle1m" />
+		<property name="CustomIconTint" value="373737"/>
+		<property name="AllowAllRotations" value="true"/>
+		<property name="ItemTypeIcon" value="all_blocks"/>
+		<property name="Material" value="Mmetal"/>
+		<property name="IsTerrainDecoration" value="true"/>
+		<property name="Collide" value="movement,melee,rocket,vehicle"/>
+		<property name="UnlockedBy" value="craftingWorkstations"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="Stacknumber" value="500"/>
+		<property name="Group" value="Building,Building2"/>
+		<property name="EconomicValue" value="1"/>
+		<property name="FilterTags" value="MC_playerBlocks,SC_playerHelpers"/>
+		<property name="SortOrder2" value="0050"/>
+		<property name="MaxDamage" value="300"/>
+		<property class="RepairItems">
+			<property name="resourceScrapIron" value="12"/>
+		</property>
+		<property name="Place" value="TowardsPlacerInverted"/>
+		<drop event="Destroy" count="0" />
+		<property name="SelectAlternates" value="true"/>
+		<property name="PlaceAltBlockValue" value="barbedSpindleCentered_SS,barbedWireSpindleDiagonal_SS,barbedSpindle_SS"/>
+		<property name="DescriptionKey" value="barbedWireVariantHelperGroupDesc_SS"/>
+	</block>
+
+	<block name="barbedSpindle_SS">
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="barbedWireSpindle1m"/>
+		<property name="CustomIconTint" value="373737"/>
+		<property name="Class" value="Damage"/>
+		<property name="BlockTag" value="Spike"/>
+		<property name="Material" value="MbarbedWire"/>
+		<property name="StabilitySupport" value="false"/>
+		<property name="Damage" value="10"/>
+		<property name="DamageType" value="BarbedWire"/>
+		<property name="Damage_received" value="3"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Mesh" value="cutout"/>
+		<property name="AllowAllRotations" value="true"/>
+		<property name="LightOpacity" value="0"/>
+		<property name="Model" value="Entities/Bandits/Barbedwire/barbedwire_spindle_1mPrefab"/>
+		<property name="TintColor" value="373737"/>
+		<property name="MultiBlockDim" value="1,1,1"/>
+		<property name="DisplayType" value="blockMulti"/>
+		<property name="ModelOffset" value="0,0,-0.2"/>
+		<property name="MaxDamage" value="300"/>
+		<property name="Stacknumber" value="500"/>
+		<property name="Place" value="TowardsPlacerInverted"/>
+		<property name="ImposterExclude" value="true"/>
+		<property name="Collide" value="melee,rocket"/>
+		<property name="Texture" value="518"/>
+		<property class="RepairItems">
+			<property name="resourceScrapIron" value="12"/>
+		</property>
+		<drop event="Harvest" name="resourceScrapIron" count="5" tag="allHarvest"/>
+		<drop event="Destroy" count="0"/>
+		<property name="CanPlayersSpawnOn" value="false"/>
+		<property name="Group" value="Tools/Traps"/>
+		<property name="EconomicValue" value="11"/>
+		<property name="FilterTags" value="MC_building,MC_playerBlocks,SC_traps"/>
+		<property name="SortOrder1" value="70g0"/>
+		<property name="VehicleHitScale" value="8"/>
+		<property name="CanPickup" value="true"/>
+	</block>
+
+	<block name="barbedSpindleCentered_SS">
+		<property name="Extends" value="barbedSpindle_SS"/>
+		<property name="CustomIcon" value="barbedWireSpindle1m" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="Entities/Bandits/Barbedwire/barbedwire_spindle_1mPrefab"/>
+		<property name="ModelOffset" value="0,0,0.25"/>
+	</block>
+
+	<block name="barbedWireSpindleDiagonal_SS">
+		<property name="Extends" value="barbedSpindle_SS"/>
+		<property name="DisplayType" value="blockMulti"/>
+		<property name="Model" value="Entities/Bandits/Barbedwire/barbedwire_spindle_diagonal_1mPrefab"/>
+		<property name="ModelOffset" value="0,0,0"/>
+		<property name="MultiBlockDim" value="1,1,1"/>
+		<property name="SortOrder2" value="0002"/>
+	</block>
+
+	</append>
+</configs>

@@ -1,0 +1,15 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context
+
+SpikesGroupDesc_SS,blocks,Trap,,,Spike traps are your first and earliest line of defense. They slow down and damage enemies. Place them using the secondary action.\n\nRepair with Wood or Forged Iron.,
+SpikesWoodDmg0_SS,blocks,Trap,,,Reinforced Wood Spikes Trap,
+SpikesIronDmg0_SS,blocks,Trap,,,Reinforced Iron Spikes Trap,
+
+barbedFence_SS,blocks,Trap,,,Reinforced Barbed Wire Fence,,
+barbedFenceDesc_SS,blocks,Trap,,,"Barbed wire fences made from wood and iron can slow down enemies, making them easier to deal with. Place them by using the secondary action.\n\nRepair with Wood and Iron.",
+
+barbedWireSpindleDiagonal_SS,blocks,block,,,Barbed Wire Spindle - Diagonal,
+barbedSpindleCentered_SS,blocks,block,,,Barbed Wire Spindle - Centered,
+barbedSpindle_SS,blocks,block,,,Barbed Wire Spindle - Offset,
+
+barbedWireVariantHelperGroupDesc_SS,blocks,Trap,,,"Razor sharp wires that cut deep.\n\nCan be made in to Barbed Wire Spindle - Centered, Diagonal and Offset.",
+barbedWireVariantHelper_SS,blocks,Trap,,,Barbed Wire,

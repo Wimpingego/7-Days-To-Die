@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<Name value="Super_Spikes" />
+	<DisplayName value="Super Spikes Alpha 21" />
+	<Description value="Allows spike blocks to be picked up" />
+	<Author value="WimpingEgo" />
+	<Version value="1.0.0" />
+	<Website value="https://github.com/Wimpingego/7-Days-To-Die" />
+</xml>
