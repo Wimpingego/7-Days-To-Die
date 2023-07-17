@@ -1,0 +1,17 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context
+
+HydroponicVerticalFarm,blocks,Workstation,,,Hydroponic Growing Station,,
+HydroponicVerticalFarmDesc,blocks,Workstation,,,Hydroponic Growing Station lets you live the farmer life without getting your hands dirty,,"
+
+XUI_CraftingList_HVF,UI,farming,,,Crop Growing,,,
+XUI_windowTools_HVF,UI,farming,,,Water Tank,,,
+
+HydroponicFarm,blocks,Workstation,,,Hydroponic Seed Station,,
+HydroponicFarmDesc,blocks,Workstation,,,Hydroponic Seed Station lets you get better returns on seed crafting.\n\nWorks with the Living Off The Land perk for cheaper recipes,,"
+
+XUI_CraftingList_HF,UI,farming,,,Seed Conversion,,,
+
+perkLivingOffTheLandRank3LongDesc,progression,perk For,,,Triple the harvest of wild or planted crops\nSeeds cost 25% lesss crop to make in the Hydroponic Seed Station.,,
+
+perkLivingOffTheLandRank4Desc,progression,perk For,,,Hydroponic Farmer,
+perkLivingOffTheLandRank4LongDesc,progression,perk For,,,Decrease growing time by 50% when using the Hydroponic Growing Station.\nSeeds cost 50% less crops to make in the Hydroponic Seed Station,,

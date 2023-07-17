@@ -1,0 +1,17 @@
+<configs>
+	
+<append xpath="/ui_display_info/crafting_category_display">
+
+<!-- HYDROPONICE VERTICAL FARM -->
+	<crafting_category_list display_type="HydroponicVerticalFarm">
+	    <crafting_category name="HVF" icon="ui_game_symbol_fork" display_name="XUI_CraftingList_HVF" />	
+	</crafting_category_list>	
+
+<!-- *** HYDROPONICS SEED STATION -->
+	<crafting_category_list display_type="HydroponicFarm">
+	    <crafting_category name="HF" icon="ui_game_symbol_fork" display_name="XUI_CraftingList_HF" />	
+	</crafting_category_list>	
+		
+</append>
+
+</configs>
