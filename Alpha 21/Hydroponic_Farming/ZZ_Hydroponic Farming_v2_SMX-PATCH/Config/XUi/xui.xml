@@ -1,0 +1,34 @@
+<configs>
+	<!--    // SMX Patch  - Hydroponic Farming UI Window Order/Layout // -->
+
+	<!--    // Hydroponic Vertical Farm Window // -->
+
+	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_HydroponicVerticalFarm']">
+			<window name="windowCraftingListWorkstation" />
+			<window name="craftingInfoPanel" />
+			<window name="windowOutputWorkstationNoFuel" />
+			<window name="windowCraftingQueueWorkstationNoFuel" />
+			<window name="windowTools_HVF_SMX" />
+			<window name="windowNonPagingHeader" />
+	</set>
+
+	<setattribute xpath="/xui//window_group[@name='workstation_campfire']" name="controller">XUiC_WorkstationWindowGroup</setattribute>
+	<setattribute xpath="/xui//window_group[@name='workstation_campfire']" name="open_backpack_on_open">true</setattribute>
+	<setattribute xpath="/xui//window_group[@name='workstation_campfire']" name="close_compass_on_open">true</setattribute>
+
+	<!--    // Hydroponic Seed Station Window // -->
+
+	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_HydroponicSeedStaion']">
+			<window name="windowCraftingListWorkstation" />
+			<window name="craftingInfoPanel" />
+			<window name="windowOutputWorkstationNoFuel" />
+			<window name="windowCraftingQueueWorkstationNoFuel" />
+			<window name="windowTools_HSS_SMX" />
+			<window name="windowNonPagingHeader" />
+	</set>
+
+	<setattribute xpath="/xui//window_group[@name='workstation_campfire']" name="controller">XUiC_WorkstationWindowGroup</setattribute>
+	<setattribute xpath="/xui//window_group[@name='workstation_campfire']" name="open_backpack_on_open">true</setattribute>
+	<setattribute xpath="/xui//window_group[@name='workstation_campfire']" name="close_compass_on_open">true</setattribute>	
+
+</configs>
